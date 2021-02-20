@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap'
-import ReactPlayer from 'react-player'
+import ReactPlayer from '../player/player'
 import Quizz from '../quizz/quizz'
 
 const videoStyle = {
@@ -15,7 +15,7 @@ const Section = ({ card }) => (
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey={card.id}>
-      <Card.Body><p>{card.program}</p>{card.url ? <ReactPlayer style={videoStyle} url={card.url} controls={true} pip={true} stopOnUnmount={false} /> : " "}
+      <Card.Body><p>{card.program}</p>{card.url ? <ReactPlayer style={videoStyle} url={card.url} controls={true} /> : " "}
         {card.quizz ? <Quizz questions={card.quizz} /> : ""}
 
       </Card.Body>
