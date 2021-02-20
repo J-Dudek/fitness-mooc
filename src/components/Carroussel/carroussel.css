@@ -1,7 +1,4 @@
-.carroussel {
-    max-width: 60%;
-    margin: auto;
-}
+
 .carroussel h3 {
     color: #007bff;
 ;
@@ -10,8 +7,12 @@
     color: black;
 }
 
-.carroussel .desc{
+.carousel-caption {
     background-color: aliceblue;
     opacity: 0.9;
     border-radius: 20px;
+}
+img{
+    height: 100%;
+    width: auto;
 }

@@ -22,7 +22,7 @@ class Intro extends Component {
                             src={it.url}
                             alt={it.alt}
                         />
-                        <Carousel.Caption className="desc">
+                        <Carousel.Caption>
                             <h3>{it.title}</h3>
                             <p>{it.txt}</p>
                         </Carousel.Caption>
