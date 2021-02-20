@@ -1,27 +1,28 @@
-import React,{Component,Fragment} from 'react';
-import {Accordion} from 'react-bootstrap'
+import React, { Component, Fragment } from 'react';
+import { Accordion } from 'react-bootstrap'
 import Section from './section';
 
-class MainMenu2 extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-      };
-    }
-  
-  
-    render() {
-      const { cards } = this.props;
-      return (
-        <Fragment>
-        <Accordion defaultActiveKey="0">
-          
-          {cards.map((card)=>(<Section key={card.id} card={card}/>))
-          }
-          </Accordion>
-        </Fragment>
-      );
-    }
+class MainMenu extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
   }
-  
-  export default MainMenu2;
+
+
+  render() {
+    const { cards } = this.props;
+    const { questions } = this.props;
+    return (
+      <Fragment>
+        <Accordion defaultActiveKey="0">
+
+          {cards.map((card) => (<Section key={card.id} card={card} questions={questions} />))
+          }
+        </Accordion>
+      </Fragment>
+    );
+  }
+}
+
+export default MainMenu;

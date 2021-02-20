@@ -16,7 +16,7 @@ class Intro extends Component {
         return (
             <Fragment>
                 <Carousel className="carroussel">
-                    {items.map((it) => (<Carousel.Item>
+                    {items.map((it) => (<Carousel.Item key={it.id} >
                         <img
                             className="d-block w-100"
                             src={it.url}
