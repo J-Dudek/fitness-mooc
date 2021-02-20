@@ -1,0 +1,17 @@
+.carroussel {
+    max-width: 60%;
+    margin: auto;
+}
+.carroussel h3 {
+    color: #007bff;
+;
+}
+.carroussel p {
+    color: black;
+}
+
+.carroussel .desc{
+    background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 20px;
+}
