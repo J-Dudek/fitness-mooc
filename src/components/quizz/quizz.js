@@ -19,7 +19,7 @@ export default function Quizz({ questions }) {
         }
     };
     return (
-        <div className='quizz'>
+        <div className='quizz '>
             {showScore ? (
                 <div className='score-section'>
                     You scored {score} out of {questions.length}

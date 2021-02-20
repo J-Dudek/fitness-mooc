@@ -17,7 +17,7 @@ class MainMenu extends Component {
       <Fragment>
         <Accordion defaultActiveKey="0">
 
-          {cards.map((card) => (<Section key={card.id} card={card} questions={questions} />))
+          {cards.map((card) => (<Section key={card.id} card={card} />))
           }
         </Accordion>
       </Fragment>
