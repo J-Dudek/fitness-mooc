@@ -12,7 +12,6 @@ class MainMenu extends Component {
 
   render() {
     const { cards } = this.props;
-    const { questions } = this.props;
     return (
       <Fragment>
         <Accordion defaultActiveKey="0">
