@@ -15,7 +15,7 @@ function App() {
   return (
     <Router history={history}>
       <div className="App">
-        <Navbar bg="primary" variant="dark">
+        <Navbar bg="primary" fixed="top" variant="dark">
           <Link to={"/"} className="navbar-brand">Home</Link>
           <Nav className="mr-auto">
             <Link className="nav-link" to={"/first"}>First Week</Link>
