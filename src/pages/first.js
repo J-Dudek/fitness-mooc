@@ -8,8 +8,6 @@ const First = () => (
     <div>
         <h1>First Week</h1>
         <MainMenu cards={cards} />
-
-
     </div>
 );
 
