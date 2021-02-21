@@ -1,5 +1,5 @@
 import React from 'react';
-import Intro from '../components/carroussel/caroussel.js'
+import Intro from '../components/carroussel/caroussel'
 import items from '../data/carroussel'
 import Article from '../components/article/article'
 const Home = () => (
