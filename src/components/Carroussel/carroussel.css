@@ -24,6 +24,10 @@ div .slide{
     width: 70%;
     margin: auto;
 }
+/* indicateurs de slide*/
+div .carousel-indicators li{
+    background-color: #007bff;
+}
 
 /* fleches de control pour changer la couleur des fleches,
 changer la valeur de fill et mettre %23 à la place de # pour entrer une valeur hexa */
