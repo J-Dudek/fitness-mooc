@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import './carroussel.css'
+import './caroussel.css'
 
 class Intro extends Component {
     constructor(props) {
