@@ -7,12 +7,30 @@
     color: black;
 }
 
-.carousel-caption {
+div .carousel-caption {
     background-color: aliceblue;
     opacity: 0.9;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: initial;
 }
 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     height: 100%;
     width: auto;
+}
+div .slide{
+    width: 70%;
+    margin: auto;
+}
+
+/* fleches de control pour changer la couleur des fleches,
+changer la valeur de fill et mettre %23 à la place de # pour entrer une valeur hexa */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
