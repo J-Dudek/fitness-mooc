@@ -1,15 +1,20 @@
 import './App.css';
 import { Router, Switch, Route, Link } from "react-router-dom";
 import { history } from './helpers/history';
+// Components
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import First from './pages/first'
-import Second from './pages/second'
-import Third from './pages/third'
-import Fourth from './pages/fourth'
 import Home from './pages/home'
+import Common from './pages/common'
 import Footer from './components/footer/footer'
+// Data
 import foot from './data/foot';
+import FirstWeek from './data/week1';
+import SecondWeek from './data/week2';
+import ThirdWeek from './data/week3';
+import FourthWeek from './data/week4'
+
+
 
 function App() {
   return (
@@ -27,10 +32,10 @@ function App() {
         <div className="container mt-3">
           <Switch>
             <Route exact path={["/", "/home"]}><Home /></Route>
-            <Route exact path="/first"><First /></Route>
-            <Route exact path="/second"><Second /></Route>
-            <Route exact path="/third"><Third /></Route>
-            <Route exact path="/fourth"><Fourth /></Route>
+            <Route exact path="/first"><Common data={FirstWeek} /></Route>
+            <Route exact path="/second"><Common data={SecondWeek} /></Route>
+            <Route exact path="/third"><Common data={ThirdWeek} /></Route>
+            <Route exact path="/fourth"><Common data={FourthWeek} /></Route>
             <Route><Home /></Route>
           </Switch>
         </div>
