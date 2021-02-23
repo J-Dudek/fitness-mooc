@@ -1,5 +1,5 @@
 import './App.css';
-import { Router, Switch, Route, Link } from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 import { history } from './helpers/history';
 // Components
 import Navbar from 'react-bootstrap/Navbar'
