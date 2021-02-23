@@ -1,9 +1,13 @@
 import React from "react";
 import './footer.css';
-const Footer = ({ foot }) => (
+const Footer = ({ foot, team }) => (
     <div className="footer">
         <p>{foot.desc}</p>
-        {foot.autors.map(aut => <div key={aut.id}> {aut.identity} : {aut.mail}</div>)}
+        <h5> Contributors</h5>
+        {team ? (
+            team.map(member => <div key={member.id}> {member.name} {member.firstname}</div>)
+        ) : "Confidential"}
+
     </div>
 );
 

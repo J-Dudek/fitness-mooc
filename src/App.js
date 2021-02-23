@@ -9,6 +9,7 @@ import Common from './pages/common'
 import Footer from './components/footer/footer'
 // Data
 import foot from './data/foot';
+import team from './data/team'
 import FirstWeek from './data/week1';
 import SecondWeek from './data/week2';
 import ThirdWeek from './data/week3';
@@ -42,7 +43,7 @@ function App() {
             <Route><Home /></Route>
           </Switch>
         </div>
-        <Footer foot={foot} />
+        <Footer foot={foot} team={team} />
       </div>
     </Router>
   );
