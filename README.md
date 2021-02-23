@@ -1,11 +1,14 @@
 # Template pour site de MOOC ou tout à fait autre chose...
 
-## Utilisation
-- ```Àpp.js``` est le "coeur" de l'application, ce ficheir contient la navBar, le Routeur/switch avec les chemins vers les différentes pages ainsi que le Footer.
-- Le dossier ```src/pages```contient les pages affichées
-- Dans le dossier ```src/data``` vous trouverez les différents composants à modifier afin de mettre à jour les données affichées.
+⚠️⚠️⚠️ `Toutes les participations sont les bienvenues , merci de créer une branche et faire une merge request ` ⚠️⚠️⚠️
 
-----
+## Utilisation
+
+- `Àpp.js` est le "coeur" de l'application, ce ficheir contient la navBar, le Routeur/switch avec les chemins vers les différentes pages ainsi que le Footer.
+- Le dossier `src/pages`contient les pages affichées
+- Dans le dossier `src/data` vous trouverez les différents composants à modifier afin de mettre à jour les données affichées.
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
