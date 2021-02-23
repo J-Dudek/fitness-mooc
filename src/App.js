@@ -20,14 +20,17 @@ function App() {
   return (
     <Router history={history}>
       <div className="App">
-        <Navbar bg="primary" sticky="top" variant="dark">
-          <Link to={"/"} className="navbar-brand">Home</Link>
-          <Nav className="mr-auto">
-            <Link className="nav-link" to={"/first"}>First Week</Link>
-            <Link className="nav-link" to={"/second"}>Second Week</Link>
-            <Link className="nav-link" to={"/third"}>Third Week</Link>
-            <Link className="nav-link" to={"/fourth"}>Fourth Week</Link>
-          </Nav>
+        <Navbar collapseOnSelect expand="lg" bg="primary" sticky="top" variant="dark">
+          <Navbar.Brand href={"/"}>Home</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href={"/first"}>First Week</Nav.Link>
+              <Nav.Link href={"/second"}>Second Week</Nav.Link>
+              <Nav.Link href={"/third"}>Third Week</Nav.Link>
+              <Nav.Link href={"/fourth"}>Fourth Week</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         <div className="container mt-3">
           <Switch>
