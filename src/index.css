@@ -56,6 +56,10 @@ h2 {
   color: var(--secondary-color);
 }
 
+.router {
+  min-height: calc(100vh - 60px - 20px);
+}
+
 /**** Classes réutilisables *************/
 
 /* Classe pour tous les éléments principaux, 'parent' */
