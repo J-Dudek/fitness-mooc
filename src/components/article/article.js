@@ -2,12 +2,12 @@ import React from "react";
 import './article.css'
 import Identity from '../identity/identity';
 import { CardDeck } from 'react-bootstrap'
-const Article = ({ title, shorttext, text, team }) => (
+const Article = ({ article }) => (
     <div className="article">
-        <h3>{title}</h3>
-        <span>{shorttext}</span>
-        <p>{text}</p>
-        {team ? <CardDeck>{(team.map(person => (<Identity member={person} key={person.id} />)))}</CardDeck> : ""}
+        <h3>{article.title}</h3>
+        <span>{article.shorttext}</span>
+        <p>{article.text}</p>
+        {article.team ? <CardDeck>{(article.team.map(person => (<Identity member={person} key={person.id} />)))}</CardDeck> : ""}
 
     </div>
 );
