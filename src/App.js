@@ -23,7 +23,7 @@ function App() {
     <Router history={history}>
       <div className="App">
         <CustomNav/>
-        <div className="container mt-3">
+        <div className="">
           <Switch>
             <Route exact path={["/", "/home"]}><Home /></Route>
             <Route exact path="/first"><Common data={FirstWeek} /></Route>

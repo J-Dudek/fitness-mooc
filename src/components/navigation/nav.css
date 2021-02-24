@@ -3,6 +3,9 @@
     height: 60px;
     margin: 0;
     background-color: var(--main-color);
+    position: sticky;
+    top: 0;
+    z-index: 10000;
 
 }
 
@@ -11,13 +14,13 @@
     background-color: var(--secondary-color);
     width: 60%;
     height: 100%;
-
     padding:0 30px;
 }
 
 #title:link, #title:visited {
     color: var(--main-color);
     text-transform: uppercase;
+    margin: 0;
 }
 
 #title:hover {

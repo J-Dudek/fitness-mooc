@@ -14,21 +14,23 @@ class Intro extends Component {
     render() {
         const { items } = this.props;
         return (
-            <Fragment>
+
                 <Carousel className="carroussel">
-                    {items.map((it) => (<Carousel.Item key={it.id} >
-                        <img
-                            className="d-block w-100"
-                            src={it.url}
-                            alt={it.alt}
-                        />
-                        <Carousel.Caption position="initial">
-                            <h3>{it.title}</h3>
-                            <p>{it.txt}</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>))}
+                    {items.map((it) => (
+                        <Carousel.Item key={it.id} >
+                            <img
+                                className="d-block w-100"
+                                src={it.url}
+                                alt={it.alt}
+                            />
+                            <Carousel.Caption position="initial">
+                                <h3>{it.title}</h3>
+                                <p>{it.txt}</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    ))}
                 </Carousel>
-            </Fragment>
+
         );
     }
 

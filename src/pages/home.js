@@ -7,12 +7,11 @@ import items from '../data/carroussel'
 import articles from '../data/homeArticle'
 
 const Home = () => (
-    <div>
-        <h1>Home</h1>
+    <section>
         <Intro items={items} />
         {articles ? (articles.map(a => <Article article={a} key={a.id} />)) : ""}
 
-    </div>
+    </section>
 );
 
 export default Home;

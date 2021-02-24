@@ -6,7 +6,7 @@ const Article = ({ article }) => (
     <div className="article">
         <h3>{article.title}</h3>
         <span>{article.shorttext}</span>
-        <p dangerouslySetInnerHTML={{ __html: article.text }}></p>
+        <p dangerouslySetInnerHTML={{__html: article.text}}/>
         {article.team ? <CardDeck>{(article.team.map(person => (<Identity member={person} key={person.id} />)))}</CardDeck> : ""}
 
     </div>
