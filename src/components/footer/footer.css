@@ -1,8 +1,7 @@
 .footer {
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color:#007bff;
-    bottom: 0;
-    left: 0;
+    padding: 35px;
+    background-color:var(--main-darker-color);
+    color: var(--light-color);
+    border-top: solid var(--secondary-color) 5px;
     width: 100%;
 }
