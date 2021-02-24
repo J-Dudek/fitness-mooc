@@ -1,5 +1,5 @@
-import julien from './img/julien.svg';
-import nothing from './img/no_avatar.svg';
+import julien from './img/avatar/julien.svg';
+import nothing from './img/avatar/no_avatar.svg';
 const team = [
     {
         "id": "0",
