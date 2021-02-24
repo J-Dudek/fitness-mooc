@@ -8,6 +8,7 @@
 - Le dossier `src/pages`contient les pages affichées
 - Dans le dossier `src/data` vous trouverez les différents composants à modifier afin de mettre à jour les données affichées.
 
+- CHoix d'utilisation pour les images: le svg, un convertisseur en ligne est disponible [ici](https://photogramio.com/fr/jpg-to-svg)
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

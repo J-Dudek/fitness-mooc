@@ -1,6 +1,6 @@
-import Img1 from './img/first.jpg'
-import Img2 from './img/second.jpeg'
-import Img3 from './img/third.jpeg'
+import Img1 from './img/first.svg'
+import Img2 from './img/second.svg'
+import Img3 from './img/third.svg'
 
 const items = [{
     "id": "0",
