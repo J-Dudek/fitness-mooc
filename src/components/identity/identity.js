@@ -1,7 +1,8 @@
-import { Card, Button } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
+import './identity.css'
 const Identity = ({ member }) => (
-    <Card >
-        <Card.Img variant="top" style={{ borderRadius: '50%', maxWidth: '180px', maxHeight: '180px', alignSelf: 'center' }} src={member.avatar} />
+    <Card className='member' >
+        <Card.Img variant="top" style={{ borderRadius: '50%', maxWidth: '100px', maxHeight: '100px', alignSelf: 'center' }} src={member.avatar} />
         <Card.Body>
             <Card.Title>{member.name} {member.firstname}</Card.Title>
             <Card.Text>
