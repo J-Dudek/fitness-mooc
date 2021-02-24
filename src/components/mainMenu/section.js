@@ -15,9 +15,9 @@ const Section = ({ card }) => (
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey={card.id}>
-      <Card.Body><p>{card.program}</p>{card.url ? <ReactPlayer style={videoStyle} url={card.url} controls={true} /> : " "}
+      <Card.Body>{card.url ? <ReactPlayer style={videoStyle} url={card.url} controls={true} /> : " "}
         {card.quizz ? <Quizz questions={card.quizz} /> : ""}
-
+        <p dangerouslySetInnerHTML={{ __html: card.program }}></p>
       </Card.Body>
     </Accordion.Collapse>
   </Card>
