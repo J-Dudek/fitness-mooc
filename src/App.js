@@ -14,6 +14,7 @@ import FirstWeek from './data/week1';
 import SecondWeek from './data/week2';
 import ThirdWeek from './data/week3';
 import FourthWeek from './data/week4'
+import CustomNav from "./components/navigation/Nav";
 
 
 
@@ -21,18 +22,7 @@ function App() {
   return (
     <Router history={history}>
       <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="primary" sticky="top" variant="dark">
-          <Navbar.Brand href={"/"}>Home</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href={"/first"}>First Week</Nav.Link>
-              <Nav.Link href={"/second"}>Second Week</Nav.Link>
-              <Nav.Link href={"/third"}>Third Week</Nav.Link>
-              <Nav.Link href={"/fourth"}>Fourth Week</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+        <CustomNav/>
         <div className="container mt-3">
           <Switch>
             <Route exact path={["/", "/home"]}><Home /></Route>

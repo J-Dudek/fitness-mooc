@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/**** Thaïs CSS ****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nunito:wght@300&display=swap');
+/* Polices :
+font-family: 'Crimson Text', serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+:root {
+  /* Variable de couleurs à modifier pour personnaliser */
+  --main-color: #414157;
+  --secondary-color: #FDDE5E;
+  --main-lighter-color: #586174;
+  --main-darker-color: #2B3642;
+  --light-color: #E3E7EC;
+  --dark-color: #fff;
+
+  /* Polices de caractère, à modifier pour personnaliser */
+  --main-font: ''Nunito', sans-serif';
+  --title-font: ''Crimson Text', serif';
+  --fantasy-font: '';
+
+  /* Police de taille, pour rendre le responsive plus aisé */
+  --container-width: 90%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  background: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--title-font);
+  color: var(--main-color);
+}
+
+/**** Classes réutilisables *************/
+
+/* Classe pour tous les éléments principaux, 'parent' */
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+
+}
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}

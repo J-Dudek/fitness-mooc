@@ -1,0 +1,109 @@
+#nav-container {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    background-color: var(--main-color);
+
+}
+
+#nav-title {
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    background-color: var(--secondary-color);
+    width: 60%;
+    height: 100%;
+
+    padding:0 30px;
+}
+
+#title:link, #title:visited {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+#title:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav-dropdown {
+    width: 100px;
+    height: 100%;
+}
+
+#btn-container {
+    height: 100%;
+
+}
+
+#nav-btn {
+    width: 34px;
+    height: 34px;
+    padding:  5px 0;
+    text-align: center;
+    color: var(--light-color);
+    background: var(--main-lighter-color);
+    border: 1px solid;
+}
+
+#nav-btn:hover {
+    color: var(--secondary-color);
+}
+
+/*** Liens en dropdown *******/
+
+#links-container {
+    display: none;
+    flex-flow: column;
+    width: 100%;
+    background: var(--light-color);
+}
+
+#links-container .link {
+    height: 3em;
+    text-align: center;
+    padding-top: 1.1em;
+    width: 100%;
+}
+
+.link:link, .link:visited {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    background: var(--main-lighter-color);
+    color: var(--secondary-color);
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+    #nav-title {
+        width: 30%;
+    }
+
+    #nav-dropdown {
+        display: none;
+    }
+
+    #links-container {
+        width: 50%;
+        height: 100%;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: space-between;
+        background: transparent;
+        display: flex;
+    }
+
+    #links-container .link {
+        width: 150px;
+        height: 100%;
+    }
+
+    .link:link, .link:visited {
+        color: var(--secondary-color);
+    }
+}
