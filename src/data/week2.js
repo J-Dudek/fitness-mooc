@@ -1,5 +1,7 @@
+import stride from './img/stride.jpg'
 const cards = {
     "title": "Second Week",
+    "autor": "Julien Dudek",
     "content": [
         {
             "id": "0",
@@ -101,6 +103,41 @@ const cards = {
                 <li>Swept intensity :</li>
                     de 105% VMA sur les 100m à 95% sur les 500m
             </ul>
+            `
+        },
+        {
+            "id": "6",
+            "title": "THE shoes",
+            "program": `In this section you will find some tips for finding the right shoes for you.
+            </br>
+            Several elements are taken into account in choosing your holy shoes. Indeed, you will have to see on what type of surface you are going to run during your outings then the frequency of these, without forgetting that you must be as comfortable as possible in these shoes which will be subjected to these multiple shocks.
+            <h4>The ground</h4>
+            If you mainly run in the city, you can choose a pair of running shoes intended for the road. Always favor comfort and good cushioning because asphalt is a little more traumatic for the joints than soft ground.
+            If you happen to leave the road for stabilized paths or undergrowth, opt for a road shoe with a sole with minimal grip. Concretely, on mixed ground, I prefer to take my indestructible Nike Pegasus than my Adios Boost, which wear out at high speed as soon as they leave the track or the asphalt ... For rolling trails with sections of road (Saintélyon type or Ecotrail de Paris when it's not really bad weather), road running shoes also do the job if you don't have a flexible trail shoe.
+            </br>
+            If you mainly run on more natural paths, in the forest, in the mud or in the mountains on rockery, trail shoes with large crampons will be more suitable to ensure better stability. The choice of model is once again a personal matter.
+            Some pairs of shoes have a more secure approach with a big grip (Salomon Speedcross, Kalenji) but are rather heavy and stiff.
+            Others are lighter and more dynamic, like the Salomon S-Lab sense or the NB Hierro. It's up to you to see which ones suit you best and be careful not to hurt yourself by favoring lightness at all costs! When you leave for several hours, it would be a shame to injure yourself to gain a few grams.
+            <h4> Your morphology</h4>
+            The morphology also plays a role in the choice of the running shoe.
+            For example, I weigh around 60 kg, I don't have the same constraints as a 90 kg runner. You should know that with each support on the ground, the runner absorbs 2 to 4 times his body weight. It is therefore preferable to choose the cushioning according to your weight. Thus, a light and dynamic shoe like an Adidas Adios Boost will be suitable for me up to 10 km, or even semi with a little training, while for a heavier runner, the Adios may be to be reserved for split or short competitions like the 5 km. Adidas Ultra Boost or Nike Pegasus may be more suitable for most outings. The Nike Pegasus are also particularly versatile and comfortable.
+            The main point is to really feel good in your sneakers when you run. Just because a running shoe is more expensive, lighter, doesn't mean it will suit you better!
+            <h4>Frequency</h4>
+            As you go along, you will be running more frequently and regularly. Your shoes need to regain their shape. As I presented to you in the introduction, your shoes undergo multiple shocks, become deformed and in order to make the most of their engineering, you have to give them a rest period between outings. Personnaly,I run almost every day I try to turn with two pairs of shoes which gives a reasonable amount of rest for them.
+            <h4>The stride</h4>
+            Supination? Pronation? Universal?
+            </br>
+            What is the meaning of these words?
+            </br>
+            These words correspond to the way we put our feet on the ground when running. And because a picture is much better than a long speech in this case, here is a representation of the different types of stride.
+            <img class="fit-picture" src=${stride} alt="Grapefruit slice atop a pile of other slices">
+            In addition to the axis of installation of the foot it is also necessary to take into account the way in which it is posed. Indeed, a heel attack and a  foot attack by front do not have identical effects on the body. We are talking about "drop" here. The "drop" is the difference, expressed in millimeters, between the back and the front of the foot. A heel attack will therefore have a higher "drop" than a mid or front attack. I use shoes with a "drop" 0 because my stride is considered natural. The shoe is only used for cushioning and does not compensate for imbalance.
+            But in this case, it is not you who choose but your body.
+            <h4>The specialist</h5>
+            In order to avoid any injury due to a bad shoe, it is strongly recommended to consult a chiropodist who will perform a postural study and a running test on a treadmill. He may, if necessary, prescribe a prescription for insoles to compensate for imbalances created by your body itself. We're all different.
+            </br>
+            We all also have feet with a different shape. The toe-box is the front part of the shoe where your toes are located, a good running dealer will also advise you on which model to choose according to your body type. It has even happened to me that a reseller sends me to the rivalry because he could not provide me with a suitable model.
+
             `
         }
     ]

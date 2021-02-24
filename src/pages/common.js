@@ -6,7 +6,7 @@ import MainMenu from '../components/mainMenu/mainMenu'
 const Common = ({ data }) => (
 
     <div>
-        <h1>{data.title}</h1>
+        <h1>{data.title}</h1><small> by {data.autor}</small>
         <MainMenu cards={data.content} />
     </div>
 );
