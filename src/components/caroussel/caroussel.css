@@ -8,19 +8,16 @@
 }
 
 div .carousel-caption {
-    /*background-color: aliceblue; */
-    opacity: 0.9;
-   /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    position: initial;*/
+   /* position: initial;*/
     background-color: #2b364266;
 }
 img{
-    height: auto;
+    height: 30vw; /* Pas beau, mais permet de fixer artificiellement la taille des images, pour éviter que ça ne saute */
     width: 100%;
 }
 div .slide{
     width: 100%;
+    overflow: hidden;
 
 }
 /* indicateurs de slide*/

@@ -4,13 +4,16 @@ import Intro from '../components/caroussel/caroussel'
 import Article from '../components/article/article'
 // Data
 import items from '../data/carroussel'
-import articles from '../data/homeArticle'
+import {aboutUs, article1, article2, otherArticles} from '../data/homeArticle'
+import Identity from "../components/identity/identity";
 
 const Home = () => (
     <section>
         <Intro items={items} />
-        {articles ? (articles.map(a => <Article article={a} key={a.id} />)) : ""}
-
+        <Article article={article1}/>
+        <Article article={aboutUs}/>
+        <Article article={article2}/>
+        {otherArticles.map(a => <Article article={a} key={a.id}/> )}
     </section>
 );
 
