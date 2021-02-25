@@ -137,8 +137,103 @@ const cards = {
             In order to avoid any injury due to a bad shoe, it is strongly recommended to consult a chiropodist who will perform a postural study and a running test on a treadmill. He may, if necessary, prescribe a prescription for insoles to compensate for imbalances created by your body itself. We're all different.
             </br>
             We all also have feet with a different shape. The toe-box is the front part of the shoe where your toes are located, a good running dealer will also advise you on which model to choose according to your body type. It has even happened to me that a reseller sends me to the rivalry because he could not provide me with a suitable model.
-
             `
+        },
+        {
+            "id": "7",
+            "title": "Quizz of the week",
+            "program": "Test your knowledge",
+            "quizz": [{
+                id: '1',
+                questionText: 'Does the marathon measure 42 km?',
+                answerOptions: [
+                    { answerText: 'Yes', isCorrect: false, id: '0' },
+                    { answerText: 'No', isCorrect: true, id: '1' },
+                ],
+            },
+            {
+                id: '2',
+                questionText: `What is the women's world record in the marathon?`,
+                answerOptions: [
+                    { answerText: '2:07:22', isCorrect: false, id: '0' },
+                    { answerText: '2:17:01', isCorrect: true, id: '1' },
+                    { answerText: '2:10:07', isCorrect: false, id: '2' },
+                    { answerText: '2:22:02', isCorrect: false, id: '3' },
+                ],
+            },
+            {
+                id: '3',
+                questionText: 'About endurance, chase the intruder ',
+                answerOptions: [
+                    { answerText: 'Muscle your heart', isCorrect: false, id: '0' },
+                    { answerText: 'Develop your capillarization', isCorrect: false, id: '1' },
+                    { answerText: 'Much traumatic', isCorrect: true, id: '2' },
+                    { answerText: 'Unlimited', isCorrect: false, id: '3' },
+                ],
+            },
+            {
+                id: '4',
+                questionText: 'Does the alternation of hot and cold in the shower promote muscle recovery?',
+                answerOptions: [
+                    { answerText: 'Yes', isCorrect: true, id: '0' },
+                    { answerText: 'No', isCorrect: false, id: '1' },
+                    { answerText: 'A shower?', isCorrect: false, id: '2' },
+                ],
+            },
+            {
+                id: '5',
+                questionText: 'Does interval training develop your VMA?',
+                answerOptions: [
+                    { answerText: 'Yes', isCorrect: true, id: '0' },
+                    { answerText: 'No', isCorrect: false, id: '1' },
+                ],
+            },
+            {
+                id: '6',
+                questionText: 'There are different shoes depending on the coating?',
+                answerOptions: [
+                    { answerText: 'No', isCorrect: false, id: '0' },
+                    { answerText: 'Yes', isCorrect: true, id: '1' },
+                ],
+            },
+            {
+                id: '7',
+                questionText: 'To choose a pair of shoes, I must',
+                answerOptions: [
+                    { answerText: 'Ask a runner friend', isCorrect: false, id: '0' },
+                    { answerText: 'Take the same model as a famous athlete.', isCorrect: false, id: '1' },
+                    { answerText: 'Observe the wear on my shoes.', isCorrect: true, id: '2' },
+                ],
+            },
+            {
+                id: '8',
+                questionText: 'Marathon is the name of a city in ...',
+                answerOptions: [
+                    { answerText: 'England', isCorrect: false, id: '0' },
+                    { answerText: 'Greece', isCorrect: true, id: '1' },
+                    { answerText: 'United States', isCorrect: false, id: '2' },
+                ],
+            },
+            {
+                id: '9',
+                questionText: 'If my foot attacks by the outside, I am :',
+                answerOptions: [
+                    { answerText: 'Pronator', isCorrect: false, id: '0' },
+                    { answerText: 'Neutral', isCorrect: false, id: '1' },
+                    { answerText: 'Supinator', isCorrect: true, id: '2' },
+                ],
+            },
+            {
+                id: '10',
+                questionText: 'When I run while chatting with a friend I am doing a type exercise :',
+                answerOptions: [
+                    { answerText: 'fundamental endurance', isCorrect: true, id: '0' },
+                    { answerText: 'Interval training', isCorrect: false, id: '1' },
+                    { answerText: 'Short pyramid', isCorrect: false, id: '2' },
+                ],
+            },
+            ]
+
         }
     ]
 };
