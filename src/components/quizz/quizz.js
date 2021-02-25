@@ -24,7 +24,7 @@ export default function Quizz({ questions }) {
             {showScore ? (
                 <div>
                     <div className='score-section'>You scored {score} out of {questions.length}</div>
-                    {questions.map(q => <div className='answer-section' index={q.id}>{q.questionText} {q.answerOptions.map(a => (a.isCorrect == true) ? (a.answerText) : "")} </div>)}
+                    {questions.map(q => <div className='answer-section' index={q.id}>{q.questionText} <strong>{q.answerOptions.map(a => (a.isCorrect === true) ? (a.answerText) : "")}</strong> </div>)}
                 </div>
             ) : (
                     <>
