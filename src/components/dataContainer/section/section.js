@@ -1,6 +1,6 @@
 import React from "react";
-import './article.css'
-import Identity from '../dataContainer/identity/identity';
+import './section.css'
+import Identity from '../identity/identity';
 const Article = ({ article }) => (
     <div className="section">
 
