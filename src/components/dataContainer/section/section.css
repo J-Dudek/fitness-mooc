@@ -60,3 +60,9 @@
     box-shadow: none !important;
 
 }
+div #persons .person{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
