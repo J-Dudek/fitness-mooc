@@ -1,0 +1,17 @@
+
+.title {
+    background-color: #CAEDE9;
+}
+
+.card-body{
+    background-color:#B2B2ED;
+}
+.card-header{
+        border: 0px solid #B2B2ED;
+}
+.router{
+    background-color:#B2B2ED;
+}
+h3{
+    color: #EDE1B2;
+}

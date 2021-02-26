@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Accordion } from 'react-bootstrap'
-import Chapter from '../chapter/chapter';
 import Article from '../article/article'
-
+import './booklet.css'
 
 class Booklet extends Component {
     constructor(props) {
