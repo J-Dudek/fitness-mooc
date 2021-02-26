@@ -1,7 +1,7 @@
 import React from 'react';
 // Components
 import Intro from '../components/dataContainer/caroussel/caroussel'
-import Article from '../components/article/article'
+import Article from '../components/dataContainer/section/section'
 // Data
 import items from '../data/carroussel'
 import { aboutUs, article1, article2, otherArticles } from '../data/homeArticle'
