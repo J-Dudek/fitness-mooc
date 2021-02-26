@@ -1,4 +1,4 @@
-import './title.css';
+
 const Title = ({ data }) => (
     <>
         <div className="title">
