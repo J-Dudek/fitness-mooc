@@ -1,13 +1,15 @@
 import React from 'react';
-import MainMenu from '../components/mainMenu/mainMenu'
+import Bookclet from '../components/dataContainer/booklet/booklet'
+import Title from '../components/body/title/title'
+
 
 
 
 const Common = ({ data }) => (
 
     <div>
-        <h1>{data.title}</h1>
-        <MainMenu cards={data.content} />
+        <Title data={data} />
+        <Bookclet articles={data.content} />
     </div>
 );
 

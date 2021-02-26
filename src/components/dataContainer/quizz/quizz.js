@@ -6,6 +6,7 @@ export default function Quizz({ questions }) {
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
 
+
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
@@ -21,8 +22,9 @@ export default function Quizz({ questions }) {
     return (
         <div className='quizz '>
             {showScore ? (
-                <div className='score-section'>
-                    You scored {score} out of {questions.length}
+                <div>
+                    <div className='score-section'>You scored {score} out of {questions.length}</div>
+                    {questions.map(q => <div className='answer-section' index={q.id}>{q.questionText} <strong>{q.answerOptions.map(a => (a.isCorrect === true) ? (a.answerText) : "")}</strong> </div>)}
                 </div>
             ) : (
                     <>
