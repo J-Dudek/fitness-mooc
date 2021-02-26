@@ -9,7 +9,8 @@ const cards = {
             "program": [{
                 id: 1,
                 subtitle: "Why run ?",
-                content: `Several studies show that running is a great way to lose weight, quit smoking, or prevent various cardiovascular diseases. But getting involved in running, while it is a natural movement, is not that simple. Indeed, many will become disgusted and/or hurt themselves.this is why this week we are going to give you some tips to avoid these inconveniences and for those who are already running we will give you some avenues for improvement.`
+                content: `Several studies show that running is a great way to lose weight, quit smoking, or prevent various cardiovascular diseases. But getting involved in running, while it is a natural movement, is not that simple. Indeed, many will become disgusted and/or hurt themselves.this is why this week we are going to give you some tips to avoid these inconveniences and for those who are already running we will give you some avenues for improvement.`,
+
             }
             ]
         },

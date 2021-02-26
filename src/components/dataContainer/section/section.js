@@ -18,7 +18,7 @@ const Article = ({ article }) => (
                                 <Identity member={member} />)}
                         </Row>
                     </div>
-                    : <a href={'/first'} className="btn">Commencer</a>
+                    : <a href={'/first'} className="btn">Start Now</a>
                 }
             </div>
         </div>
