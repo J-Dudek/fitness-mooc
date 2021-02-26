@@ -1,7 +1,7 @@
 import React from 'react';
-import Bookclet from '../components/dataContainer/booklet/booklet'
-import Title from '../components/body/title/title'
-
+import Bookclet from '../booklet/booklet'
+import Title from '../../body/title/title'
+import "./common.css"
 
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import './section.css'
 import Identity from '../identity/identity';
+import Row from "react-bootstrap/Row";
 const Article = ({ article }) => (
     <div className="section">
 
@@ -12,10 +13,12 @@ const Article = ({ article }) => (
                 <p>{article.text}</p>
                 {(article.team) ?
                     <div className={'container flex-grid'}>
-                        {article.team.map(member =>
-                            <Identity member={member} />)}
+                        <Row id="persons">
+                            {article.team.map(member =>
+                                <Identity member={member} />)}
+                        </Row>
                     </div>
-                    : <a href={'/first'} className="btn">Commencer</a>
+                    : <a href={'/first'} className="btn">Start Now</a>
                 }
             </div>
         </div>

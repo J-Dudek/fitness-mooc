@@ -18,14 +18,14 @@
     width: 55%;
     background: var(--main-color);
     height: 100%;
-    background-image: url("../../../src/data/img/articles/man.jpeg");
+    background-image: url("../../../../src/data/img/articles/man.jpeg");
     background-position: right;
     background-size: cover;
 }
 
 .right {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background-image: url("../../../src/data/img/articles/woman.jpeg");
+    background-image: url("../../../../src/data/img/articles/woman.jpeg");
     background-position: center;
 
 }
@@ -59,4 +59,10 @@
     margin: auto;
     box-shadow: none !important;
 
+}
+div #persons .person{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }

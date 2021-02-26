@@ -2,8 +2,8 @@ import './App.css';
 import { Router, Switch, Route } from "react-router-dom";
 import { history } from './helpers/history';
 // Components
-import Home from './pages/home'
-import Common from './pages/common'
+import Home from './components/dataContainer/pages/home'
+import Common from './components/dataContainer/pages/common'
 import Footer from './components/body/footer/footer'
 // Data
 import foot from './data/foot';

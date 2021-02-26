@@ -1,5 +1,5 @@
 .quizz {
-    background-color: #7acaac;
+    background-color: #FDDE5E;
     min-height: 200px;
     height: min-content;
     border-radius: 15px;
@@ -52,8 +52,8 @@
 .quizz button {
     width: 100%;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #7acaac;
+    color: #234668;
+    background-color: #FDDE5E;
     border-radius: 15px;
     display: flex;
     padding: 5px;
