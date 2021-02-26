@@ -1,6 +1,10 @@
-import Img1 from './img/caroussel/first.svg'
+/*import Img1 from './img/caroussel/first.svg'
 import Img2 from './img/caroussel/second.svg'
-import Img3 from './img/caroussel/third.svg'
+import Img3 from './img/caroussel/third.svg' */
+
+import Img1 from './img/caroussel/AdobeStock_290904251_Preview.jpeg'
+import Img2 from './img/caroussel/AdobeStock_301500986_Preview.jpeg'
+import Img3 from './img/caroussel/AdobeStock_318577956_Preview.jpeg'
 
 const items = [{
     "id": "0",

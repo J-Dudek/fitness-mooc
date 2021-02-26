@@ -1,0 +1,36 @@
+
+.carroussel h3 {
+    color: var(--secondary-color);
+;
+}
+.carroussel p {
+    color: var(--light-color);
+}
+
+div .carousel-caption {
+   /* position: initial;*/
+    background-color: #2b364266;
+}
+img{
+    height: 30vw; /* Pas beau, mais permet de fixer artificiellement la taille des images, pour éviter que ça ne saute */
+    width: 100%;
+}
+div .slide{
+    width: 100%;
+    overflow: hidden;
+
+}
+/* indicateurs de slide*/
+div .carousel-indicators li{
+    background-color: var(--secondary-color);
+}
+
+/* fleches de control pour changer la couleur des fleches,
+changer la valeur de fill et mettre %23 à la place de # pour entrer une valeur hexa */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FDDE5E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FDDE5E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}

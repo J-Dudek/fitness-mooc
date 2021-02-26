@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import './caroussel.css'
 
@@ -14,9 +14,10 @@ class Intro extends Component {
     render() {
         const { items } = this.props;
         return (
-            <Fragment>
-                <Carousel className="carroussel">
-                    {items.map((it) => (<Carousel.Item key={it.id} >
+
+            <Carousel className="carroussel">
+                {items.map((it) => (
+                    <Carousel.Item key={it.id} >
                         <img
                             className="d-block w-100"
                             src={it.url}
@@ -26,9 +27,10 @@ class Intro extends Component {
                             <h3>{it.title}</h3>
                             <p>{it.txt}</p>
                         </Carousel.Caption>
-                    </Carousel.Item>))}
-                </Carousel>
-            </Fragment>
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+
         );
     }
 
