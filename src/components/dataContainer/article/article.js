@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Chapter from "../chapter/chapter";
-import ReactPlayer from '../../player/player';
-import Quizz from '../../quizz/quizz'
+import ReactPlayer from '../player/player';
+import Quizz from '../quizz/quizz'
 const videoStyle = {
     margin: 'auto',
 };
