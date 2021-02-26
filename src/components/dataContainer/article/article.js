@@ -15,8 +15,8 @@ const Article = ({ article }) => (
             />
             {article.program.map(part =>
                 <Chapter.Body id={article.id}>
-                    <h3>{part.subtitle}</h3>
-                    <div>{part.content}</div>
+                    {part.subtitle ? <h3 className="article-subtitle">{part.subtitle}</h3> : ""}
+                    {part.content ? <div className="article-content">{part.content}</div> : ""}
                     <ReactPlayer style={videoStyle} url={part.url} />
                     <Chapter.Img src={part.img} />
                     {part.quizz ? (<Quizz questions={part.quizz} />) : ""}
