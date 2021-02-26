@@ -15,3 +15,19 @@
 h3{
     color: #EDE1B2;
 }
+
+.part-img{
+    margin-top: 1em;
+    margin-bottom: 0.5em
+}
+
+div .quizz{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.quizz .score-section{
+    font-weight: bold;
+}
+.card+.card .card-body{
+    border: 1px solid #B2B2ED;
+}
