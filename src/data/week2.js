@@ -1,4 +1,6 @@
-import stride from './img/stride.jpg'
+import stride from './img/week2/stride.jpg'
+import marathonPlan from './img/week2/marathonAthene.jpg'
+import londonMarathon from './img/week2/londonMarathon.jpg'
 const cards = {
     "title": "Second Week",
     "autor": "Julien Dudek",
@@ -21,18 +23,21 @@ const cards = {
                 id: 1,
                 subtitle: `Since -490`,
                 content: `One of the founding dates in the history of running dates back to -490 in ancient Greece. The Athenians are then at war against the Persians near the city of Marathon. The story goes that a messenger named Phillipides was sent from Marathon to warn Athens of the victory of the Greeks. The two towns are then separated by 42 km. The messenger would have died of fatigue just after delivering his message.
-                The marathon was created on the occasion of the Athens Olympics in 1896, on an idea of the French philosopher Michel Bréal, to commemorate the legend of this messenger.`
+                The marathon was created on the occasion of the Athens Olympics in 1896, on an idea of the French philosopher Michel Bréal, to commemorate the legend of this messenger.`,
+                img: marathonPlan,
             },
             {
                 id: 2,
                 subtitle: `Since 1921`,
                 content: `The marathon distance was around 40 km in the early modern Olympic Games. It was in 1921 that the distance was definitively fixed, by formalizing that of the London Olympic Games (1908). The royal family of Edward VII indeed wishing that the race begins at Windsor Castle and ends in front of the royal box of the Olympic stadium.
             This distance was therefore measured precisely: 26 miles and 385 yards or 42.195 km and became the official distance of the marathon.`,
+                img: londonMarathon,
             },
             {
                 id: 3,
                 subtitle: `Actually`,
                 content: `The world records for the marathon are currently held by Kenyan Eliud Kipchoge with the time of 2 h 1 min 39 s set on September 16, 2018 during the marathon in Berlin, Germany1, and by the Kenyan Brigid Kosgei, credited with 2:14 min 4 s on October 13, 2019 during the Chicago Marathon in USA 2. The IAAF also awards a women's world record to Kenya's Mary Keitany in 2:17:01, a performance set on April 23, 2017 at London in a women's all-race.`,
+                url: `https://www.youtube.com/watch?v=_Y3Ad5wfTFQ&feature=youtu.be&ab_channel=FRANCE24English`
             },
 
             ]
@@ -178,7 +183,9 @@ const cards = {
                 id: 8,
                 subtitle: "The specialist",
                 content: `In order to avoid any injury due to a bad shoe, it is strongly recommended to consult a chiropodist who will perform a postural study and a running test on a treadmill. He may, if necessary, prescribe a prescription for insoles to compensate for imbalances created by your body itself. We're all different.
-                We all also have feet with a different shape. The toe-box is the front part of the shoe where your toes are located, a good running dealer will also advise you on which model to choose according to your body type. It has even happened to me that a reseller sends me to the rivalry because he could not provide me with a suitable model.`,
+                We all also have feet with a different shape. The toe-box is the front part of the shoe where your toes are located, a good running dealer will also advise you on which model to choose according to your body type. It has even happened to me that a reseller sends me to the rivalry because he could not provide me with a suitable model.
+                You can see a video of a pediatrician who explain things more effectively than me, each his profession.`,
+                url: `https://www.youtube.com/watch?v=lKWaGyTBZBI&ab_channel=www.sportsinjuryclinic.net`,
             }
             ]
         }, {

@@ -17,8 +17,10 @@ h3{
 }
 
 .part-img{
+    margin-bottom: 0.5em;
+    max-width: 80%;
+    margin: auto;
     margin-top: 1em;
-    margin-bottom: 0.5em
 }
 
 div .quizz{
@@ -30,4 +32,10 @@ div .quizz{
 }
 .card+.card .card-body{
     border: 1px solid #B2B2ED;
+}
+
+.diapo-article{
+    max-width: 75%;
+    max-height: 75%;
+    margin:auto;
 }

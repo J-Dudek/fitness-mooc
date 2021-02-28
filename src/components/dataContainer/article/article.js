@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Chapter from "../chapter/chapter";
 import ReactPlayer from '../player/player';
 import Quizz from '../quizz/quizz'
+import Diaporama from '../caroussel/caroussel'
 const videoStyle = {
     margin: 'auto',
 };
@@ -20,6 +21,7 @@ const Article = ({ article }) => (
                     <ReactPlayer style={videoStyle} url={part.url} />
                     <Chapter.Img src={part.img} />
                     {part.quizz ? (<Quizz questions={part.quizz} />) : ""}
+                    {part.diapo ? (<div className="diapo-article"><Diaporama items={part.diapo} /></div>) : ""}
                 </Chapter.Body>
             )}
 

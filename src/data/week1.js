@@ -1,4 +1,4 @@
-import stride from './img/stride.jpg'
+import stride from './img/week2/stride.jpg'
 const cards = {
     "title": "Second Week",
     "autor": "Julien Dudek",
