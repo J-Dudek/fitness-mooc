@@ -13,18 +13,6 @@ const team = [
         "firstname": "Khélia ",
         "bio": " To be defined by her ...",
         "avatar": nothing
-    }, {
-        "id": "2",
-        "name": "Simpson",
-        "firstname": "Bart",
-        "bio": "where is he?",
-        "avatar": nothing
-    }, {
-        "id": "3",
-        "name": "Simpson",
-        "firstname": "Lisa",
-        "bio": "With her sax ",
-        "avatar": nothing
     }
 ];
 
