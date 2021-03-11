@@ -11,7 +11,7 @@ div .carousel-caption {
    /* position: initial;*/
     background-color: #2b364266;
 }
-img{
+.d-block img {
     height: 30vw; /* Pas beau, mais permet de fixer artificiellement la taille des images, pour éviter que ça ne saute */
     width: 100%;
 }

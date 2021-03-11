@@ -1,6 +1,12 @@
 import stride from './img/week2/stride.jpg'
 import marathonPlan from './img/week2/marathonAthene.jpg'
 import londonMarathon from './img/week2/londonMarathon.jpg'
+import groupRun from './img/week2/group-running-silhouette.png'
+import runWithFriend from './img/week2/runWithFriend.jpg'
+import drinkWater from './img/week2/drinkWater.jpg'
+import curve from './img/week2/curve.png'
+import curveLong from './img/week2/curveLong.png'
+import pyramide from './img/week2/pyramide.png'
 const cards = {
     "title": "Second Week",
     "autor": "Julien Dudek",
@@ -52,6 +58,7 @@ const cards = {
                 Fundamental endurance is a running pace that you can theoretically run without stopping.
                 Indeed, you are not out of breath at this rate; you are comfortable. Usually, this is the outing you do while chatting with your friends.
                 This pace should be the basis of your training. It should represent 70% of your training volume because it helps develop many of your physical capacities.`,
+
             }, {
                 id: 2,
                 subtitle: ``,
@@ -60,7 +67,7 @@ const cards = {
                     Endurance training increases the mitochondria in muscle fibers. These mitochondria, located in muscle cells, convert “glucose” into ATP, the energy that can be directly used by muscle cells. We quickly understand the importance of increasing this number of mitochondria in a context of progression and performance.
                     An ideal pace for soliciting fat and activating the lipid chain.
                     During long outings in fundamental endurance, and in particular on an empty stomach, the runner will make better use of lipid reserves.`
-                ,
+                , img: groupRun
             }, {
                 id: 3,
                 subtitle: `The interest can be multiple`,
@@ -81,7 +88,8 @@ const cards = {
                 content: `As you have understood, the first exercise will be to do a short race on the theme of fundamental endurance.
             For this race, if you are lucky enough to know a runner and he wants to accompany you: go for it! But not too fast!
             You can also be accompanied by a loved one by bike or other .. the idea is to share this moment.
-            I remind you: you must be able to continue discussing with your partner.`
+            I remind you: you must be able to continue discussing with your partner.`,
+                img: runWithFriend
             }, {
                 id: 2,
                 subtitle: "How long?",
@@ -99,7 +107,8 @@ const cards = {
             }, {
                 id: 2,
                 subtitle: "Hydrate yourself",
-                content: `The legend says that it is good to share a good beer with friends after a session of running. Truth or just excuse? .. What is certain is that after having subjected your body to physical efforts, you must rehydrate it. In general, in sports it is advisable to drink plenty of water. You will also find in many specialized stores as well as in pharmacies drinks and recovery products. By having tested a few I can advise you those based on spirulina, I take it in exchange for an intensive outing.`
+                content: `The legend says that it is good to share a good beer with friends after a session of running. Truth or just excuse? .. What is certain is that after having subjected your body to physical efforts, you must rehydrate it. In general, in sports it is advisable to drink plenty of water. You will also find in many specialized stores as well as in pharmacies drinks and recovery products. By having tested a few I can advise you those based on spirulina, I take it in exchange for an intensive outing.`,
+                img: drinkWater
             }, {
                 id: 3,
                 subtitle: "Stretching",
@@ -121,13 +130,15 @@ const cards = {
                 subtitle: "The 30/30 to develop the VMA",
                 content: `Found in a large number of training plans, the principle is extremely simple: 30 seconds fast and 30 seconds slow, to be repeated several times.
                 Beginner:10 x 30 sec (at 100% VMA / 30sec light trot).
-                Expert: 2 to 3 sets of 10 x 30sec (at 105% VMA / 30 sec light trot) 3min recovery between sets.`
+                Expert: 2 to 3 sets of 10 x 30sec (at 105% VMA / 30 sec light trot) 3min recovery between sets.You have to be in the hard during the fast part but being constant as much as possible and giving the maximum on the last fraction.`,
+                img: curve
 
             }, {
                 id: 3,
                 subtitle: "The session at the threshold",
                 content: `Indispensable for building up the fund, understanding the ability to last in the effort.
-                Warm-up + 3 x 10 min at the threshold (Recovery 3 min trot) + 10 min calm down.`
+                Warm-up + 3 x 10 min at the threshold (Recovery 3 min trot) + 10 min calm down.`,
+                img: curveLong
             }, {
                 id: 4,
                 subtitle: "Playful : short pyramid",
@@ -135,7 +146,8 @@ const cards = {
                 The rising part of the pyramid is mentally demanding. But when you reach the top the downward part rekindles your motivation and learns not to let go.
                 Typical session : 100/200/300/400/500/400/300/200/100
                 Recovery : 30sec/40sec/50sec/1min/1min10/1min/50sec/40sec
-                Swept intensity : on 105% VMA on 100m and 95% on 500m`
+                Swept intensity : on 105% VMA on 100m and 95% on 500m`,
+                img: pyramide
             }
             ]
         }, {
