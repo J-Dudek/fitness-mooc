@@ -7,6 +7,7 @@ import drinkWater from './img/week2/drinkWater.jpg'
 import curve from './img/week2/curve.png'
 import curveLong from './img/week2/curveLong.png'
 import pyramide from './img/week2/pyramide.png'
+import apps from './img/week2/appRunning.png'
 const cards = {
     "title": "Second Week",
     "autor": "Julien Dudek",
@@ -298,6 +299,40 @@ const cards = {
                 },
                 ],
             },
+            ]
+        },
+        {
+            "id": "8",
+            "title": "Go further",
+            "program": [{
+                id: 1,
+                subtitle: "Application",
+                content: `You can find apps for your smartphones such as Strava, Running (by Adidas) and other. These applications will allow you to schedule running sessions (interval running or not) as well as to share them with your friends and / or the different communities. They are generally free and offer chargeable supplements.`,
+                img: apps,
+
+            },
+            {
+                id: 2,
+                subtitle: "Training plan",
+                content: `As we talked about before, running is a big family. Many diverse and varied advice and sharing sites are available. You will find a small selection below.`,
+                "links": [{
+                    id: '1',
+                    href: 'https://www.runnersworld.com/uk/training-plans/',
+                    txt: ' Training plan'
+                },
+                {
+                    id: '2',
+                    href: 'https://www.runnersworld.com/',
+                    txt: `Runner's World`
+                },
+                {
+                    id: '3',
+                    href: 'https://www.therunningcommunity.club/',
+                    txt: 'The running Community'
+                },
+
+                ],
+            }
             ]
         }
 
