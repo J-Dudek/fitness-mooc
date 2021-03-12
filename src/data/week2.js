@@ -9,7 +9,7 @@ import curveLong from './img/week2/curveLong.png'
 import pyramide from './img/week2/pyramide.png'
 import apps from './img/week2/appRunning.png'
 const cards = {
-    "title": "Second Week",
+    "title": "Second Week - RUN",
     "autor": "Julien Dudek",
     "content": [
         {
