@@ -19,7 +19,7 @@ const cards = {
                 id: 1,
                 subtitle: "Why run ?",
                 content: `Several studies show that running is a great way to lose weight, quit smoking, or prevent various cardiovascular diseases. But getting involved in running, while it is a natural movement, is not that simple. Indeed, many will become disgusted and/or hurt themselves.this is why this week we are going to give you some tips to avoid these inconveniences and for those who are already running we will give you some avenues for improvement.`,
-                url: `https://www.youtube.com/watch?v=brFHyOtTwH4&ab_channel=GlobalTriathlonNetwork`,
+                url: `https://youtu.be/2Y-1ZRWOnW8`,
             }
             ]
         },
@@ -325,14 +325,14 @@ const cards = {
                     href: 'https://www.runnersworld.com/',
                     txt: `Runner's World`
                 },
-                {
-                    id: '3',
-                    href: 'https://www.therunningcommunity.club/',
-                    txt: 'The running Community'
-                },
-
                 ],
-            }
+            },
+            {
+                id: 3,
+                subtitle: "Thanks",
+                content: `Hope you enjoyed this week of run. I count on you to redo these different exercises and hope to meet you in basketball on a road or a path.`,
+                url: `https://youtu.be/PCruN_EoqKU`
+            },
             ]
         }
 
