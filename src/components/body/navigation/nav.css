@@ -12,16 +12,16 @@
 #nav-title {
     clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
     background-color: var(--secondary-color);
-    width: 60%;
+    width: 68%;
     height: 100%;
-    padding:0 10px;
+    padding:0 5px;
 }
 
 #title:link, #title:visited {
     color: var(--main-color);
     text-transform: uppercase;
     margin: 0;
-    font-size: 0.7em;
+    font-size: 0.65em;
 }
 
 #title:hover {
@@ -80,6 +80,19 @@
     color: var(--secondary-color);
 
 }
+
+@media screen and (min-width: 485px) {
+    #nav-title {
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        width: 60%;
+        padding:0 10px;
+    }
+
+    #title:link, #title:visited {
+        font-size: 0.7em;
+    }
+}
+
 
 
 

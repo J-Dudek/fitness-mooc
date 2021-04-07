@@ -10,7 +10,7 @@ class CustomNav extends React.Component {
                 </div>
                 <div id="nav-dropdown" className="flex-center">
                     <button id="nav-btn">
-                        <span id="btn-icon" className="material-icons"></span>
+                        <span id="btn-icon" className="material-icons">menu</span>
                     </button>
                 </div>
                 <div id="links-container">
