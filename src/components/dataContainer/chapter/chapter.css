@@ -1,10 +1,46 @@
+.accordion {
+    width: 95%;
+    margin: 50px auto;
+}
+
+.card {
+    border: var(--main-darker-color) !important;
+}
+
 .accordion>.card>.card-header {
-    background: #31316E;
+    background: var(--main-darker-color);
 }
 .accordion>.card>.card-header .btn{
-    background: #7474ED;
-    color:#72e9df;
+    background: var(--secondary-color);
+    color: var(--main-darker-color);
+    width: 70%;
+    min-width: 260px;
+    max-width: 560px;
 }
 .part-img img{
     height: 30vw;
+}
+.title {
+    color: var(--secondary-color);
+    background: transparent !important;
+}
+
+.card-body {
+    background: var(--main-darker-color) !important;
+    border: none !important;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+@media screen and (min-width: 580px) {
+    .accordion {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .accordion {
+        width: 70%;
+    }
 }

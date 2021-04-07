@@ -9,7 +9,7 @@ class CustomNav extends React.Component {
                     <h1><a id="title" href={'/'}>Fitness Mooc</a></h1>
                 </div>
                 <div id="nav-dropdown" className="flex-center">
-                    <button onClick="displayLinks()" id="nav-btn">
+                    <button id="nav-btn">
                         <span id="btn-icon" className="material-icons"></span>
                     </button>
                 </div>
