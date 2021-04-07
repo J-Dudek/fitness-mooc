@@ -58,6 +58,7 @@ h2 {
 
 .router {
   min-height: calc(100vh - 60px - 20px);
+  background: var(--main-darker-color) !important;
 }
 
 /**** Classes réutilisables *************/
