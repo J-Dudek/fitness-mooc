@@ -7,44 +7,38 @@
 
 .section {
     width: 100%;
-    height: 50vh;
+   /* height: 50vh; */
     display: flex;
+    flex-direction: column;
     background: var(--main-color);
 
 }
 
 .left, .right {
-    clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
-    width: 55%;
+    width: 100%;
     background: var(--main-color);
-    height: 100%;
+    height: 50%;
     background-image: url("../../../../src/data/img/articles/man.jpeg");
-    background-position: right;
-    background-size: cover;
-}
-
-.right {
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background-image: url("../../../../src/data/img/articles/woman.jpeg");
     background-position: center;
-
+    background-size: cover;
 }
 
 
 .section .text {
-    height: 100%;
-    width: 45%;
+    /*height: 100%;*/
+    width: 100%;
 }
 
 .text-container {
     background-color: var(--main-darker-color);
     height: 60%;
-    width: 70%;
+    width: 90%;
+    margin: 30px auto;
     box-shadow: 1px 1px 5px var(--main-lighter-color);
     border-radius: 5%;
     text-align: center;
-    flex-flow: column;padding: 0 20px;
-
+    flex-flow: column;
+    padding: 20px;
     color: var(--light-color);
 }
 
@@ -61,8 +55,50 @@
 
 }
 div #persons .person{
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
+    margin: 0 auto auto;
+}
+
+
+@media screen and (min-width: 800px){
+    .left, .right {
+        clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
+        width: 55%;
+        background: var(--main-color);
+        height: 100%;
+        background-image: url("../../../../src/data/img/articles/man.jpeg");
+        background-position: right;
+        background-size: cover;
+    }
+
+    .right {
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+        background-image: url("../../../../src/data/img/articles/woman.jpeg");
+        background-position: center;
+
+    }
+
+    .section .text {
+        height: 100%;
+        width: 45%;
+    }
+
+    .section {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        background: var(--main-color);
+    }
+
+    .text-container {
+        background-color: var(--main-darker-color);
+        height: 60%;
+        width: 70%;
+        box-shadow: 1px 1px 5px var(--main-lighter-color);
+        border-radius: 5%;
+        text-align: center;
+        flex-flow: column;padding: 0 20px;
+        color: var(--light-color);
+    }
+
+
 }
