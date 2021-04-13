@@ -2,7 +2,7 @@ import stride from './img/week2/stride.jpg'
 const cards = {
     "title": "First Week",
     "autor": "Khélia Nibaruta",
-    "content": [
+    "content": [ 
         {
             "id": "0",
             "title": "Jump Rope",
