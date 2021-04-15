@@ -23,6 +23,7 @@ const Article = ({ article }) => (
                     {part.quizz ? (<Quizz questions={part.quizz} />) : ""}
                     {part.diapo ? (<div className="diapo-article"><Diaporama items={part.diapo} /></div>) : ""}
                     {part.links ? (part.links.map(link => <div key={link.id}><a href={link.href} target="_blank" rel="noopener noreferrer">{link.txt}</a></div>)) : ""}
+                    {part.extra ? <div className="article-content">{part.extra}</div> : ""}
                 </Chapter.Body>
             )}
 

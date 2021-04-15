@@ -3,6 +3,10 @@ import basicPlank from './img/week3/basicPlank.png'
 import sidePlank from './img/week3/sidePlank.png'
 import mountainClimber from './img/week3/mountainClimber.jpg'
 import anatomyAbdo from './img/week3/abdominals.jpeg'
+import lungeSideStadium from './img/week3/lungesSideStadium.jpg'
+import lungesWomenBeach from './img/week3/lungesWomenBeach.jpg'
+import lungeTatoo from './img/week3/lungeTatooSidejpg.jpeg'
+import lungePink from './img/week3/lungeWomanPink.jpg'
 const cards = {
     "title": "Third Week - GPP",
     "autor": "Julien Dudek",
@@ -124,6 +128,42 @@ const cards = {
                 id: 4,
                 subtitle: 'Lunges',
                 content: `Lunges are the perfect exercise for working your glutes and shaping your legs. They work the entire thigh and back of the leg. Lunges are some of the most dynamic exercises around and are sure to make you sweat. For example, a Lunges workout lasting 15 to 20 minutes will burn approximately 100 calories. However, this is only a guide. There are the so-called classic lunges and the side lunges. As all exercices lunges can be done without material as well as while carrying a weight. Here you can see a step by step for doing this exercice .`,
+                diapo: [
+
+                    {
+                        "id": "0",
+                        "title": "After a run..",
+                        "alt": "Second slide slide",
+                        "txt": ".. or other sport",
+                        "url": lungeSideStadium
+                    },
+
+                    {
+                        "id": "1",
+                        "title": "To the beach",
+                        "alt": "Third slide",
+                        "txt": "sand is good for foot arch",
+                        "url": lungesWomenBeach,
+                    },
+
+                    {
+                        "id": "2",
+                        "title": "Averyone can do this exercice",
+                        "alt": "Third slide",
+                        "txt": "focusing or not",
+                        "url": lungeTatoo,
+                    },
+                    {
+                        "id": "3",
+                        "title": "To the city",
+                        "alt": "Third slide",
+                        "txt": "after or before work for a good day",
+                        "url": lungePink,
+                    },
+
+                ],
+                extra: `As you can see anyone can do this exercise in any situation so don't hesitate.About twenty minutes a day and you will be in good shape.`,
+
 
             }
             ]
