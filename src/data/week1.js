@@ -1,6 +1,9 @@
 import benefits from './img/week1/benefits.jpg'
+import length from './img/week1/length.jpg'
+import posture from './img/week1/posture.jpg'
+import details from './img/week1/details.jpg'
 const cards = {
-    "title": "First Week",
+    "title": "First Week - JUMP ROPE",
     "autor": "Khélia Nibaruta",
     "content": [ 
         {
@@ -80,6 +83,7 @@ const cards = {
                 content: `5. Aches and chronic pain are reduced. You can reduce muscle aches and cope better with chronic pain by skipping rope.
                 The vibrations and the vertical oscillations present in the bounce with feet together of the jump are feared because supposedly traumatic; However, 
                 the internal massage caused by these actions facilitates the circulation of the lymphatic fluid present in the fascias (the muscular and visceral envelopes) which decreases their density and at the same time reduces the tensions caused by intense physical activity or long immobile postures .`
+                ,
                 img: benefits,
             },
             ]
@@ -90,7 +94,8 @@ const cards = {
                 id: 1,
                 subtitle: "How to jump rope without hurt yourself",
                 content: `First, we must start with feet together and legs stretched out without a rope, at a slow pace, tucking in the stomach and contracting the abdominals; the pelvis must be sheathed to avoid any arching of the kidneys, a source of pain and lumbar trauma.
-                Then, to master your jumps and balance, it is preferable to practice only the variant of jumping rope which consists of jumping on one foot with each rotation of the rope, alternately, twice on the right foot and then twice on the left; we keep the shoulders relaxed, the elbows are close to the body and only the wrists print a rope movement.`
+                Then, to master your jumps and balance, it is preferable to practice only the variant of jumping rope which consists of jumping on one foot with each rotation of the rope, alternately, twice on the right foot and then twice on the left; we keep the shoulders relaxed, the elbows are close to the body and only the wrists print a rope movement.`,
+                img: posture,
             }, {
                 id: 2,
                 subtitle: "Single and double turns",
@@ -163,7 +168,8 @@ const cards = {
                 For a beginner or to be more comfortable, the handles should reach the level of the shoulder, under the armpits.
                 For an expert practitioner the rope can be much shorter and only arrive at the level of the last ribs or the navel for example. An expert in jumping can afford a shorter length because he will not tend to spread his arms when jumping, which is what a beginner always does.
                 Technically, the ideal way to master double turns is to have your arms glued to the chest while jumping, to stimulate the rotational movement of the rope by the sole action of the wrists and to keep the legs straight and the body sheathed. . Other technical details can be found below.
-                `
+                `,
+                img: length,
             }
             ]
         }, {
