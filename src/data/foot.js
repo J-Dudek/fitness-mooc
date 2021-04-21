@@ -1,5 +1,5 @@
 const foot = {
-    "desc": "Project done during S2 of Master Class at the University Catholic of Lille",
+    "desc": "Master Class S2's English project at Lille Catholic University",
     "autors": [{
         "id": "1",
         "identity": "Julien Dudek",
