@@ -1,6 +1,6 @@
 import stride from './img/week2/stride.jpg'
 const cards = {
-    "title": "First Week",
+    "title": "Fourth Week - STRETCHING",
     "autor": "Khélia Nibaruta",
     "content": [ 
         {
@@ -25,21 +25,9 @@ const cards = {
             "title": "A bit of history",
             "program": [{
                 id: 1,
-                subtitle: `Since 1600 A.D`,
-                content: `Explorers reported seeing aborigines jumping with vines in the 16th century. European boys started jumping rope in the early 17th century. The activity was considered indecent for girls because they might show their ankles. Girls began to jump rope in the 18th century, adding skipping chants, owning the rope, controlling the game, and deciding who may participate.In the United States, domination of the activity by girls occurred when their families moved into the cities in the late 19th century. There, they found sidewalks and other smooth surfaces conducive to jumping rope, along with a host of contemporaries.
-                `
-            },
-            {
-                id: 2,
-                subtitle: `Since`,
-                content: ``,
-            },
-            {
-                id: 3,
-                subtitle: `Actually`,
-                content: ``,
-            },
-
+                subtitle: `Since 1980`,
+                content: `The practice of muscle stretching developed around thirty years ago in sports, following the work of North American and Scandinavian authors. Improving flexibility was the primary goal of these stretches, which have long been used in dance. But in sports medicine, the re-education techniques for neurological conditions, known as proprioceptive neuromuscular facilitation, developed by Kabat and other authors. It was in the early 1980s that Stanish in North America and other authors in France introduced stretching to the management of sport-related tendinopathies. Then Stanish et al. eccentric muscular work was associated with it a few years later. Although initially based on theoretical rather than experimental data, this method has developed rapidly to become a must in the preparation of athletes and in the treatment of tendon and muscle injuries related to sport. In recent years, methods of evaluating the effects of stretching have been developed and controlled studies have been published, providing scientific support for this technique and allowing to better define its place among other training and treatment techniques.`
+            }
             ]
         },
         {
@@ -47,78 +35,127 @@ const cards = {
             "title": "Slowly but surely: endurance",
             "program": [{
                 id: 1,
-                subtitle: `What is it?`,
-                content: `One of the essential concepts to acquire is that of fundamental endurance.
-                Fundamental endurance is a running pace that you can theoretically run without stopping.
-                Indeed, you are not out of breath at this rate; you are comfortable. Usually, this is the outing you do while chatting with your friends.
-                This pace should be the basis of your training. It should represent 70% of your training volume because it helps develop many of your physical capacities.`,
+                subtitle: `What are we stretching?`,
+                content: `Before stretching, it is important to know what to stretch.
+
+                During a stretching exercise, you will act on the so-called striated muscles (see The three types of muscles); they are connected to a tendon or a ligament. To put it simply, in this process, you stretch both the muscle, the tendon and the ligament which is very little stretchy.
+                
+                Now that you have fully understood the elements involved in stretching, we are going to tackle a part that you all expect: the benefits!
+                `,
             }, {
                 id: 2,
-                subtitle: `Jumping rope benefits`,
-                content: `As the jumping rope is a cardio exercise, it has several benefits, and let’s see some of them:`
+                subtitle: `Stretching benefits`,
+                content: ``
                 ,
             }, {
                 id: 3,
                 subtitle: ``,
-                content: `1. Jumping rope  protects the veins in  the sense that it prevents varicose veins and other veins problems. By jumping rope, a deep massage of the veins is provided  by the muscles in activity which are the calves moving and then ensuring the return of the blood to the heart.`
+                content: `1. They improve muscle and joint flexibility.`
                 ,
             }, {
                 id: 4,
                 subtitle: ``,
-                content: `2. Cardiovascular endurance and calorie expenditure are maximized. Because it is not very intense when it is well mastered, it is also a very good way to increase endurance capacity in cardio training.
-                By the caloric expenditure caused the skipping rope is the ideal way to lose weight, to control its healthy weight by reducing the rate of fat mass or, in sports with weight categories such as boxing or judo, to go back down quickly in its competition category; 725 calories are burned per hour of jump rope exercise.`
+                content: `2. They improve mobility.`
                 ,
             }, {
                 id: 5,
                 subtitle: ``,
-                content: `3. Muscle tone and explosiveness are developed. Rope jumping can also be approached as a plyometric bodybuilding practice of the leg extensors (calves, quads, glutes).
-                It then allows, associated with other more specific exercises, to improve vertical relaxation especially in high jump, basketball or volleyball. Rope training allows you to build muscles quickly while gaining tone without gaining volume. Jump rope is the perfect fitness exercise for building the buttocks.`
+                content: `3. They improve stability and balance.`
                 ,
             }, {
                 id: 6,
                 subtitle: ``,
-                content: `4. The thighs are refined and cellulite is reduced. To slim the thighs, the muscles involved in the stride must have a short contraction time, so they firm up but do not gain in volume.
-                Jumps, jump rope and leaping strides allow you to acquire this type of stride. In addition, the vertical oscillations caused by the jumps move the tissues, this functional massage is a precious ally to lose cellulite and refine your silhouette.`
+                content: `4. They improve posture.`
                 ,
             }, {
                 id: 7,
                 subtitle: ``,
-                content: `5. Aches and chronic pain are reduced. You can reduce muscle aches and cope better with chronic pain by skipping rope.
-                The vibrations and the vertical oscillations present in the bounce with feet together of the jump are feared because supposedly traumatic; However, 
-                the internal massage caused by these actions facilitates the circulation of the lymphatic fluid present in the fascias (the muscular and visceral envelopes) which decreases their density and at the same time reduces the tensions caused by intense physical activity or long immobile postures .`
+                content: `5. They reduce the risk of injury.`
                 ,
-            },
+            }, {
+                id: 8,
+                subtitle: ``,
+                content: `6. They decrease muscle tension and stress.`
+                ,
+            }, {
+                id: 9,
+                subtitle: ``,
+                content: `7. They increase the energy level.`
+                ,
+            }, {
+                id: 10,
+                subtitle: ``,
+                content: `8. They improve alertness.`
+                ,
+            }
             ]
         }, {
             "id": "3",
             "title": "Let's exercice",
             "program": [{
                 id: 1,
-                subtitle: "How to jump rope without hurt yourself",
-                content: `First, we must start with feet together and legs stretched out without a rope, at a slow pace, tucking in the stomach and contracting the abdominals; the pelvis must be sheathed to avoid any arching of the kidneys, a source of pain and lumbar trauma.
-                Then, to master your jumps and balance, it is preferable to practice only the variant of jumping rope which consists of jumping on one foot with each rotation of the rope, alternately, twice on the right foot and then twice on the left; we keep the shoulders relaxed, the elbows are close to the body and only the wrists print a rope movement.`
+                subtitle: "The different stretching methods",
+                content: `Before getting to the heart of the matter, you should know the different stretching techniques; so you can best use them in the right context.
+                          There are three main stretching techniques:`
             }, {
                 id: 2,
-                subtitle: "Single and double turns",
-                content: `
-                As soon as you know how to jump by alternating supports as described above, you can learn the technique to succeed in simple jumps on two feet with a single turn of the rope. In a very synthetic way, as it is summarized in the following photo, we can say that a good jumping technique can be summed up in 7 points. Must have :
-                
-                mobile wrists,
-                elbows stiff and slightly bent,
-                arms very close to the bust,
-                low shoulders with a clear head,
-                stiff knees with firm thighs and sheathed stomach,
-                movable ankles and an explosive muscle contraction in the calves
-                a horizontal gaze fixed on a point of reference chosen in front of you to facilitate the overall body balance.
-                `
+                subtitle: "",
+                content: `1. The technique of active or activo-dynamic stretching`
             }, {
                 id: 3,
                 subtitle: '',
-                content: `
-                Then, the technique to make a success of the double turns or double under is the same but the double turns require 3 additional qualities:
-                faster movement of the wrists,
-                a more precise coordination, in particular a fine control of the alternation of accelerations printed on the rope and
-                a greater vertical impulse.`
+                content: `2. The passive stretching method`
+            },  {
+                id: 4,
+                subtitle: '',
+                content: `3. Activo-passive stretching`
+            }, {
+                id: 5,
+                subtitle: '1. The technique of active or activo-dynamic stretching',
+                content: `Active or activo-dynamic stretching is used to participate in muscle warming up and thus increase body temperature. They should be done before exercise, because they prepare the muscle, tendons and ligaments to undergo a more or less intense exercise of strength. This is why these stretches are widely used in high performance sport.
+                
+                The technique consists of:
+                
+                Lengthen the muscle slowly and gradually until you feel tight.
+                Contract the muscle in a static position for 6 to 8 seconds (feeling hot).
+                Release and follow up on a phase of dynamic muscle work in the form of active exercises for about ten seconds (see section "How to stretch?" For a better understanding). Here, the lengthening of the muscle disappears at the end of the stretch!
+                `
+            }, {
+                id: 6,
+                subtitle: '2. The passive stretching method',
+                content: `The passive or static stretching method should be done after exercise, especially neither before nor during, as many do!
+
+                When the stretch is performed within a time range of 20 to 30 seconds, it is called a short passive stretch. This is to be done after exercise during what is called calm down.
+                
+                On the other hand, when the stretch lasts between 1 to 5 minutes, it is called a postural or long passive stretch, which should be done outside of exercise.
+                
+                However, to enjoy all their benefits, it is necessary to practice them almost every day at a moderate intensity; no need to strain the muscle too much, especially after physical exertion.
+                
+                In this technique, if the stretch is held for 20 to 30 seconds (short passive), the stretch disappears at the end of it. On the other hand, if it is held between 1 to 5 minutes (long passive or postural) the lengthening persists after the stretching; hence the increased flexibility.
+                
+                See also hatha yoga which mainly concerns spiritual awakening through correct postures, discipline of the breath and meditation. Today, it constitutes a practice in various forms relying on bodywork and the corresponding mental attitude (Wikipedia Hatha Yoga).
+                `
+            }, {
+                id: 7,
+                subtitle: '3. Activo-passive stretching',
+                content: `The activo-passive method consists in contracting the muscle using an isometric contraction, that is to say without movement, lasting 12 to 15 seconds.
+
+                To understand the different types of contraction, check out this very pragmatic article: Concentric, Eccentric, and Isometric Contractions
+                
+                This contraction can be done with a light weight, a low resistance elastic band, the ground or a partner's hand.
+                
+                After that, a slackening ensues. Without changing the angle in which you are, take advantage of this so-called "refractory" period to lengthen the muscle in question.
+                
+                At this time, the muscle is less contracted, it can be stretched more easily. This method is also called CRE (contraction, relaxation, stretching); it is a technique that is part of what is called NPF (Proprioceptive Neuromuscular Facilitation). It should be done before exercise or independently of your sessions.
+                
+                Warning ! This method is very effective, because it is very easy to obtain amplitude gain. But this one takes a lot of listening and feeling. It is widely used by therapists; it should only be done by those who are used to stretching. Indeed, it requires a good knowledge of oneself and of one's body.
+                Why stretch? What are the benefits of stretching?
+                And imagine that the benefits of these are numerous and not negligible for our health.
+                
+                First, I would like to point out that stretching does not prevent stiffness and does not "cure" it; instead turn to my article on muscle soreness.
+                
+                Imagine if you have cuts on your skin, no one would think of pulling on the skin to heal faster!
+                `
             }
             ]
         }, {
