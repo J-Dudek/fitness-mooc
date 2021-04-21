@@ -1,4 +1,4 @@
-import stride from './img/week2/stride.jpg'
+import benefits from './img/week1/benefits.jpg'
 const cards = {
     "title": "First Week",
     "autor": "Khélia Nibaruta",
@@ -80,7 +80,7 @@ const cards = {
                 content: `5. Aches and chronic pain are reduced. You can reduce muscle aches and cope better with chronic pain by skipping rope.
                 The vibrations and the vertical oscillations present in the bounce with feet together of the jump are feared because supposedly traumatic; However, 
                 the internal massage caused by these actions facilitates the circulation of the lymphatic fluid present in the fascias (the muscular and visceral envelopes) which decreases their density and at the same time reduces the tensions caused by intense physical activity or long immobile postures .`
-                ,
+                img: benefits,
             },
             ]
         }, {
