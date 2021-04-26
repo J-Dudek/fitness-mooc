@@ -1,39 +1,34 @@
 import stride from './img/week2/stride.jpg'
 const cards = {
-    "title": "Second Week",
-    "autor": "Julien Dudek",
-    "content": [
+    "title": "Fourth Week - STRETCHING",
+    "autor": "Khélia Nibaruta",
+    "content": [ 
         {
             "id": "0",
-            "title": "Focus on Running",
+            "title": "Focus on Stretching",
             "program": [{
+                url: 'https://youtu.be/acZw9G8Z5CA',
                 id: 1,
-                subtitle: "Why run ?",
-                content: `Several studies show that running is a great way to lose weight, quit smoking, or prevent various cardiovascular diseases. But getting involved in running, while it is a natural movement, is not that simple. Indeed, many will become disgusted and/or hurt themselves.this is why this week we are going to give you some tips to avoid these inconveniences and for those who are already running we will give you some avenues for improvement.`
+                subtitle: "Why stretch ?",
+                content: `Everyone has heard of stretching, but should it be done before or after training? Are they necessary? How to do them?
+
+                So many questions to clear up! Stretching is often used very little, poorly executed, or even poorly understood, especially from the point of view of its interests.
+                In addition, it is important that you incorporate a stretching routine whether you exercise or not. Many of us have sedentary jobs; so we sit for a good part of the day, which has the effect of shortening our muscles and making them stiffer.
+                First, let's give a simple definition of what a stretch is: it's the action of lengthening or stretching tendons, muscles, and fibrous tissue with varying amounts of force.
+                
+                Stretching is rather used to designate a session entirely devoted to stretching.
+                `
             }
             ]
         },
         {
             "id": "1",
-            "title": "A bit of history and records",
+            "title": "A bit of history",
             "program": [{
                 id: 1,
-                subtitle: `Since -490`,
-                content: `One of the founding dates in the history of running dates back to -490 in ancient Greece. The Athenians are then at war against the Persians near the city of Marathon. The story goes that a messenger named Phillipides was sent from Marathon to warn Athens of the victory of the Greeks. The two towns are then separated by 42 km. The messenger would have died of fatigue just after delivering his message.
-                The marathon was created on the occasion of the Athens Olympics in 1896, on an idea of the French philosopher Michel Bréal, to commemorate the legend of this messenger.`
-            },
-            {
-                id: 2,
-                subtitle: `Since 1921`,
-                content: `The marathon distance was around 40 km in the early modern Olympic Games. It was in 1921 that the distance was definitively fixed, by formalizing that of the London Olympic Games (1908). The royal family of Edward VII indeed wishing that the race begins at Windsor Castle and ends in front of the royal box of the Olympic stadium.
-            This distance was therefore measured precisely: 26 miles and 385 yards or 42.195 km and became the official distance of the marathon.`,
-            },
-            {
-                id: 3,
-                subtitle: `Actually`,
-                content: `The world records for the marathon are currently held by Kenyan Eliud Kipchoge with the time of 2 h 1 min 39 s set on September 16, 2018 during the marathon in Berlin, Germany1, and by the Kenyan Brigid Kosgei, credited with 2:14 min 4 s on October 13, 2019 during the Chicago Marathon in USA 2. The IAAF also awards a women's world record to Kenya's Mary Keitany in 2:17:01, a performance set on April 23, 2017 at London in a women's all-race.`,
-            },
-
+                subtitle: `Since 1980`,
+                content: `The practice of muscle stretching developed around thirty years ago in sports, following the work of North American and Scandinavian authors. Improving flexibility was the primary goal of these stretches, which have long been used in dance. But in sports medicine, the re-education techniques for neurological conditions, known as proprioceptive neuromuscular facilitation, developed by Kabat and other authors. It was in the early 1980s that Stanish in North America and other authors in France introduced stretching to the management of sport-related tendinopathies. Then Stanish et al. eccentric muscular work was associated with it a few years later. Although initially based on theoretical rather than experimental data, this method has developed rapidly to become a must in the preparation of athletes and in the treatment of tendon and muscle injuries related to sport. In recent years, methods of evaluating the effects of stretching have been developed and controlled studies have been published, providing scientific support for this technique and allowing to better define its place among other training and treatment techniques.`
+            }
             ]
         },
         {
@@ -41,46 +36,127 @@ const cards = {
             "title": "Slowly but surely: endurance",
             "program": [{
                 id: 1,
-                subtitle: `What is it?`,
-                content: `One of the essential concepts to acquire is that of fundamental endurance.
-                Fundamental endurance is a running pace that you can theoretically run without stopping.
-                Indeed, you are not out of breath at this rate; you are comfortable. Usually, this is the outing you do while chatting with your friends.
-                This pace should be the basis of your training. It should represent 70% of your training volume because it helps develop many of your physical capacities.`,
+                subtitle: `What are we stretching?`,
+                content: `Before stretching, it is important to know what to stretch.
+
+                During a stretching exercise, you will act on the so-called striated muscles (see The three types of muscles); they are connected to a tendon or a ligament. To put it simply, in this process, you stretch both the muscle, the tendon and the ligament which is very little stretchy.
+                
+                Now that you have fully understood the elements involved in stretching, we are going to tackle a part that you all expect: the benefits!
+                `,
             }, {
                 id: 2,
-                subtitle: ``,
-                content: `By running a long time in fundamental endurance, you muscle your heart and you increase its volume. More powerful, the latter sends more blood into your body. Your heart rate (HR) then drops for the same effort.
-                    By running regularly with this technique, you develop your capillarization. This is because your body will improve the network of capillaries that supply oxygen to your muscles. They will thus be able to benefit from more oxygen and be more efficient.
-                    Endurance training increases the mitochondria in muscle fibers. These mitochondria, located in muscle cells, convert “glucose” into ATP, the energy that can be directly used by muscle cells. We quickly understand the importance of increasing this number of mitochondria in a context of progression and performance.
-                    An ideal pace for soliciting fat and activating the lipid chain.
-                    During long outings in fundamental endurance, and in particular on an empty stomach, the runner will make better use of lipid reserves.`
+                subtitle: `Stretching benefits`,
+                content: ``
                 ,
             }, {
                 id: 3,
-                subtitle: `The interest can be multiple`,
-                content: `Lose weight by melting fat.
-                    Running for a long time: whether on a trail, an ultra-trail, a 24 hour race or even a 100 kiosk, the goal is to last a long time. However, carbohydrate reserves are limited, unlike lipid reserves. To last over a long race, it will therefore be necessary to be able to use the lipid sector as effectively as possible.
-                Pushing back the wall of the marathon: the wall of the marathon corresponds to the depletion of carbohydrate reserves and therefore the lack of energy. Training in fundamental endurance makes it possible to learn to use lipids as an energy chain and no longer rely solely on the carbohydrate chain.
-                    Running in fundamental endurance is much less traumatic for the body than so-called "quality" (split) sessions. This is why you can hold this pace for a very long time.
-            This pace will allow you to increase your weekly volume, whether running or trail running. Be careful, however, this increase in volume should be gradual to avoid injuring yourself (tendonitis, windshield wiper syndrome, etc.).
-            As you tire your body less, you can run more often. So, to run every day, you will have to run no faster than this pace.`,
+                subtitle: ``,
+                content: `1. They improve muscle and joint flexibility.`
+                ,
+            }, {
+                id: 4,
+                subtitle: ``,
+                content: `2. They improve mobility.`
+                ,
+            }, {
+                id: 5,
+                subtitle: ``,
+                content: `3. They improve stability and balance.`
+                ,
+            }, {
+                id: 6,
+                subtitle: ``,
+                content: `4. They improve posture.`
+                ,
+            }, {
+                id: 7,
+                subtitle: ``,
+                content: `5. They reduce the risk of injury.`
+                ,
+            }, {
+                id: 8,
+                subtitle: ``,
+                content: `6. They decrease muscle tension and stress.`
+                ,
+            }, {
+                id: 9,
+                subtitle: ``,
+                content: `7. They increase the energy level.`
+                ,
+            }, {
+                id: 10,
+                subtitle: ``,
+                content: `8. They improve alertness.`
+                ,
             }
             ]
         }, {
             "id": "3",
-            "title": "First exercice",
+            "title": "Let's exercice",
             "program": [{
                 id: 1,
-                subtitle: "Accompanied",
-                content: `As you have understood, the first exercise will be to do a short race on the theme of fundamental endurance.
-            For this race, if you are lucky enough to know a runner and he wants to accompany you: go for it! But not too fast!
-            You can also be accompanied by a loved one by bike or other .. the idea is to share this moment.
-            I remind you: you must be able to continue discussing with your partner.`
+                subtitle: "The different stretching methods",
+                content: `Before getting to the heart of the matter, you should know the different stretching techniques; so you can best use them in the right context.
+                          There are three main stretching techniques:`
             }, {
                 id: 2,
-                subtitle: "How long?",
-                content: `For beginners, half an hour seems fine. With an effort of this intensity and duration, you shouldn't have too much muscle pain.
-            For experienced runners, it doesn't matter how long your body is used to this kind of effort and your muscles are ready.`
+                subtitle: "",
+                content: `1. The technique of active or activo-dynamic stretching`
+            }, {
+                id: 3,
+                subtitle: '',
+                content: `2. The passive stretching method`
+            },  {
+                id: 4,
+                subtitle: '',
+                content: `3. Activo-passive stretching`
+            }, {
+                id: 5,
+                subtitle: '1. The technique of active or activo-dynamic stretching',
+                content: `Active or activo-dynamic stretching is used to participate in muscle warming up and thus increase body temperature. They should be done before exercise, because they prepare the muscle, tendons and ligaments to undergo a more or less intense exercise of strength. This is why these stretches are widely used in high performance sport.
+                
+                The technique consists of:
+                
+                Lengthen the muscle slowly and gradually until you feel tight.
+                Contract the muscle in a static position for 6 to 8 seconds (feeling hot).
+                Release and follow up on a phase of dynamic muscle work in the form of active exercises for about ten seconds (see section "How to stretch?" For a better understanding). Here, the lengthening of the muscle disappears at the end of the stretch!
+                `
+            }, {
+                id: 6,
+                subtitle: '2. The passive stretching method',
+                content: `The passive or static stretching method should be done after exercise, especially neither before nor during, as many do!
+
+                When the stretch is performed within a time range of 20 to 30 seconds, it is called a short passive stretch. This is to be done after exercise during what is called calm down.
+                
+                On the other hand, when the stretch lasts between 1 to 5 minutes, it is called a postural or long passive stretch, which should be done outside of exercise.
+                
+                However, to enjoy all their benefits, it is necessary to practice them almost every day at a moderate intensity; no need to strain the muscle too much, especially after physical exertion.
+                
+                In this technique, if the stretch is held for 20 to 30 seconds (short passive), the stretch disappears at the end of it. On the other hand, if it is held between 1 to 5 minutes (long passive or postural) the lengthening persists after the stretching; hence the increased flexibility.
+                
+                See also hatha yoga which mainly concerns spiritual awakening through correct postures, discipline of the breath and meditation. Today, it constitutes a practice in various forms relying on bodywork and the corresponding mental attitude (Wikipedia Hatha Yoga).
+                `
+            }, {
+                id: 7,
+                subtitle: '3. Activo-passive stretching',
+                content: `The activo-passive method consists in contracting the muscle using an isometric contraction, that is to say without movement, lasting 12 to 15 seconds.
+
+                To understand the different types of contraction, check out this very pragmatic article: Concentric, Eccentric, and Isometric Contractions
+                
+                This contraction can be done with a light weight, a low resistance elastic band, the ground or a partner's hand.
+                
+                After that, a slackening ensues. Without changing the angle in which you are, take advantage of this so-called "refractory" period to lengthen the muscle in question.
+                
+                At this time, the muscle is less contracted, it can be stretched more easily. This method is also called CRE (contraction, relaxation, stretching); it is a technique that is part of what is called NPF (Proprioceptive Neuromuscular Facilitation). It should be done before exercise or independently of your sessions.
+                
+                Warning ! This method is very effective, because it is very easy to obtain amplitude gain. But this one takes a lot of listening and feeling. It is widely used by therapists; it should only be done by those who are used to stretching. Indeed, it requires a good knowledge of oneself and of one's body.
+                Why stretch? What are the benefits of stretching?
+                And imagine that the benefits of these are numerous and not negligible for our health.
+                
+                First, I would like to point out that stretching does not prevent stiffness and does not "cure" it; instead turn to my article on muscle soreness.
+                
+                Imagine if you have cuts on your skin, no one would think of pulling on the skin to heal faster!
+                `
             }
             ]
         }, {
@@ -102,82 +178,36 @@ const cards = {
             ]
         }, {
             "id": "5",
-            "title": "Interval training",
+            "title": "In which case not practice jumping rope",
             "program": [{
                 id: 1,
-                subtitle: "Why ?",
-                content: `This type of training will allow you to improve your speed and also your endurance.
-                You will find tons of types of split sessions on the internet and in magazines.
-                In all these articles you will come across technical terms such as VMA (Maximum Aerobic Speed), FCR (Heart Rate Reserve).
-                In our case we will talk about VMA.`
-            }, {
-                id: 2,
-                subtitle: "The 30/30 to develop the VMA",
-                content: `Found in a large number of training plans, the principle is extremely simple: 30 seconds fast and 30 seconds slow, to be repeated several times.
-                Beginner:10 x 30 sec (at 100% VMA / 30sec light trot).
-                Expert: 2 to 3 sets of 10 x 30sec (at 105% VMA / 30 sec light trot) 3min recovery between sets.`
-
-            }, {
-                id: 3,
-                subtitle: "The session at the threshold",
-                content: `Indispensable for building up the fund, understanding the ability to last in the effort.
-                Warm-up + 3 x 10 min at the threshold (Recovery 3 min trot) + 10 min calm down.`
-            }, {
-                id: 4,
-                subtitle: "Playful : short pyramid",
-                content: `This session allows you to break up the monotony of the training sessions and to work on a whole range of gaits close to the VMA.
-                The rising part of the pyramid is mentally demanding. But when you reach the top the downward part rekindles your motivation and learns not to let go.
-                Typical session : 100/200/300/400/500/400/300/200/100
-                Recovery : 30sec/40sec/50sec/1min/1min10/1min/50sec/40sec
-                Swept intensity : on 105% VMA on 100m and 95% on 500m`
+                subtitle: "",
+                content: `People suffering from a herniated disc should absolutely avoid skipping rope. Indeed any exercise which increases the abdominal pressure, and therefore the pressure on the intervertebral discs, can increase the intensity of the pain.
+                This same abdominal pressure risks causing significant stress on the pelvic floor; It will therefore be preferable, after childbirth or in the event of proven weakness at this level, to dispense with jumping in order to avoid numerous complications such as urinary leaks or diastasis.
+                The jumps can be replaced by climbs of walk or step-up.
+                Athletes prone to tendonitis, in particular the Achilles tendon, also have an interest in not skipping rope even for a very short time. Finally, people in poor physical condition or with heart problems should rather turn first to gentler practices such as walking with poles or slow jogging.
+                `
             }
             ]
         }, {
             "id": "6",
-            "title": "THE shoes",
+            "title": "Jumping rope choice",
             "program": [{
                 id: 1,
                 subtitle: "",
-                content: `In this section you will find some tips for finding the right shoes for you.
-                Several elements are taken into account in choosing your holy shoes. Indeed, you will have to see on what type of surface you are going to run during your outings then the frequency of these, without forgetting that you must be as comfortable as possible in these shoes which will be subjected to these multiple shocks.`
+                content: `The best skipping ropes have handles that adapt to the shape of the hands. The diameter of the rope is between 2 and 3 mm.
+                Depending on your level of practice, you will choose a light nylon rope if you are just starting out because they are rather slow.
+                We will rather orient ourselves towards vinyl, leather or steel strings sheathed with ball bearings if we are trained and if we want to perform the double-under (double turns) during the wod (training sessions) of crossfit.
+                It is also possible to DIY a first price rope to obtain a model supporting the comparison in speed of rotation with the high level ropes by replacing the original wire by a sheathed cable of 3 mm in diameter limited at these two ends by 3 mm sleeves.
+                You can even replace the original foam grip with a tennis racket grip that is easier to handle by simply rotating the wrists.`
             }, {
                 id: 2,
-                subtitle: "The ground : City",
-                content: `If you mainly run in the city, you can choose a pair of running shoes intended for the road. Always favor comfort and good cushioning because asphalt is a little more traumatic for the joints than soft ground.
-                If you happen to leave the road for stabilized paths or undergrowth, opt for a road shoe with a sole with minimal grip. Concretely, on mixed ground, I prefer to take my indestructible Nike Pegasus than my Adios Boost, which wear out at high speed as soon as they leave the track or the asphalt ... For rolling trails with sections of road (Saintélyon type or Ecotrail de Paris when it's not really bad weather), road running shoes also do the job if you don't have a flexible trail shoe.`
-            }, {
-                id: 3,
-                subtitle: "The ground : Forest (not Gump ;) )",
-                content: `If you mainly run on more natural paths, in the forest, in the mud or in the mountains on rockery, trail shoes with large crampons will be more suitable to ensure better stability. The choice of model is once again a personal matter.
-                Some pairs of shoes have a more secure approach with a big grip (Salomon Speedcross, Kalenji) but are rather heavy and stiff.
-                Others are lighter and more dynamic, like the Salomon S-Lab sense or the NB Hierro. It's up to you to see which ones suit you best and be careful not to hurt yourself by favoring lightness at all costs! When you leave for several hours, it would be a shame to injure yourself to gain a few grams.`
-            }, {
-                id: 4,
-                subtitle: "Your morphology",
-                content: `The morphology also plays a role in the choice of the running shoe.
-                For example, I weigh around 60 kg, I don't have the same constraints as a 90 kg runner. You should know that with each support on the ground, the runner absorbs 2 to 4 times his body weight. It is therefore preferable to choose the cushioning according to your weight. Thus, a light and dynamic shoe like an Adidas Adios Boost will be suitable for me up to 10 km, or even semi with a little training, while for a heavier runner, the Adios may be to be reserved for split or short competitions like the 5 km. Adidas Ultra Boost or Nike Pegasus may be more suitable for most outings. The Nike Pegasus are also particularly versatile and comfortable.
-                The main point is to really feel good in your sneakers when you run. Just because a running shoe is more expensive, lighter, doesn't mean it will suit you better!`
-            }, {
-                id: 5,
-                subtitle: "Frequency",
-                content: `As you go along, you will be running more frequently and regularly. Your shoes need to regain their shape. As I presented to you in the introduction, your shoes undergo multiple shocks, become deformed and in order to make the most of their engineering, you have to give them a rest period between outings. Personnaly,I run almost every day I try to turn with two pairs of shoes which gives a reasonable amount of rest for them.`
-            }, {
-                id: 6,
-                subtitle: "The stride",
-                content: `Supination? Pronation? Universal?
-                    What is the meaning of these words?
-                    These words correspond to the way we put our feet on the ground when running. And because a picture is much better than a long speech in this case, here is a representation of the different types of stride.`,
-                img: stride
-            }, {
-                id: 7,
                 subtitle: "",
-                content: `In addition to the axis of installation of the foot it is also necessary to take into account the way in which it is posed. Indeed, a heel attack and a  foot attack by front do not have identical effects on the body. We are talking about "drop" here. The "drop" is the difference, expressed in millimeters, between the back and the front of the foot. A heel attack will therefore have a higher "drop" than a mid or front attack. I use shoes with a "drop" 0 because my stride is considered natural. The shoe is only used for cushioning and does not compensate for imbalance.
-                    But in this case, it is not you who choose but your body.`,
-            }, {
-                id: 8,
-                subtitle: "The specialist",
-                content: `In order to avoid any injury due to a bad shoe, it is strongly recommended to consult a chiropodist who will perform a postural study and a running test on a treadmill. He may, if necessary, prescribe a prescription for insoles to compensate for imbalances created by your body itself. We're all different.
-                We all also have feet with a different shape. The toe-box is the front part of the shoe where your toes are located, a good running dealer will also advise you on which model to choose according to your body type. It has even happened to me that a reseller sends me to the rivalry because he could not provide me with a suitable model.`,
+                content: `What is the correct length of the skipping rope? To know the correct length, simply place one foot at the middle of the rope and lift the handles upwards along the body.
+                For a beginner or to be more comfortable, the handles should reach the level of the shoulder, under the armpits.
+                For an expert practitioner the rope can be much shorter and only arrive at the level of the last ribs or the navel for example. An expert in jumping can afford a shorter length because he will not tend to spread his arms when jumping, which is what a beginner always does.
+                Technically, the ideal way to master double turns is to have your arms glued to the chest while jumping, to stimulate the rotational movement of the rope by the sole action of the wrists and to keep the legs straight and the body sheathed. . Other technical details can be found below.
+                `
             }
             ]
         }, {
@@ -189,52 +219,50 @@ const cards = {
                 content: `You deserved a good shower. A little advice, during this shower you will apply temperature changes on your legs from your usual temperature to the coldest temperature available. Do it gradually if you are not used to it, but do it. The first time it may seem quite difficult but you will get used to it and it will allow you not to have aches the next day.`,
                 "quizz": [{
                     id: '1',
-                    questionText: 'Does the marathon measure 42 km?',
+                    questionText: 'What is the diameter of the skipping rope?',
                     answerOptions: [
-                        { answerText: 'Yes', isCorrect: false, id: '0' },
-                        { answerText: 'No', isCorrect: true, id: '1' },
+                        { answerText: '2mm', isCorrect: false, id: '0' },
+                        { answerText: 'between 2 and 3mm', isCorrect: true, id: '1' },
+                        { answerText: '3mm', isCorrect: false, id: '0' },
                     ],
                 },
                 {
                     id: '2',
-                    questionText: `What is the women's world record in the marathon?`,
+                    questionText: `In which case not to jump rope?`,
                     answerOptions: [
-                        { answerText: '2:07:22', isCorrect: false, id: '0' },
-                        { answerText: '2:17:01', isCorrect: true, id: '1' },
-                        { answerText: '2:10:07', isCorrect: false, id: '2' },
-                        { answerText: '2:22:02', isCorrect: false, id: '3' },
+                        { answerText: 'suffering from a herniated disc', isCorrect: true, id: '0' },
+                        { answerText: 'suffering from influenza', isCorrect: false, id: '1' },
+                        { answerText: 'suffering from myopia', isCorrect: false, id: '2' },
                     ],
                 },
                 {
                     id: '3',
-                    questionText: 'About endurance, chase the intruder ',
+                    questionText: 'Which fact is true? ',
                     answerOptions: [
-                        { answerText: 'Muscle your heart', isCorrect: false, id: '0' },
-                        { answerText: 'Develop your capillarization', isCorrect: false, id: '1' },
-                        { answerText: 'Much traumatic', isCorrect: true, id: '2' },
-                        { answerText: 'Unlimited', isCorrect: false, id: '3' },
+                        { answerText: 'Cardiovascular endurance and calorie expenditure are minimized.', isCorrect: false, id: '0' },
+                        { answerText: 'Muscle tone and explosiveness are developed when jumping rope', isCorrect: true, id: '1' },
                     ],
                 },
                 {
                     id: '4',
-                    questionText: 'Does the alternation of hot and cold in the shower promote muscle recovery?',
+                    questionText: 'How know the correct length of the skipping rope for beginners?',
                     answerOptions: [
-                        { answerText: 'Yes', isCorrect: true, id: '0' },
-                        { answerText: 'No', isCorrect: false, id: '1' },
+                        { answerText: 'the handles should reach the level of the shoulder, under the armpits.', isCorrect: true, id: '0' },
+                        { answerText: 'the handles should reach the level of the shoulder, upper the armpits.', isCorrect: false, id: '1' },
                         { answerText: 'A shower?', isCorrect: false, id: '2' },
                     ],
                 },
                 {
                     id: '5',
-                    questionText: 'Does interval training develop your VMA?',
+                    questionText: 'How know the correct length of the skipping rope for beginners?',
                     answerOptions: [
-                        { answerText: 'Yes', isCorrect: true, id: '0' },
-                        { answerText: 'No', isCorrect: false, id: '1' },
+                        { answerText: 'the rope can be much shorter and only arrive at the level of the last ribs or the navel for example.', isCorrect: true, id: '0' },
+                        { answerText: 'NAs long as possible', isCorrect: false, id: '1' },
                     ],
                 },
                 {
                     id: '6',
-                    questionText: 'There are different shoes depending on the coating?',
+                    questionText: ' Can you jump rope without hurt yourself?',
                     answerOptions: [
                         { answerText: 'No', isCorrect: false, id: '0' },
                         { answerText: 'Yes', isCorrect: true, id: '1' },
