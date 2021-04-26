@@ -2,6 +2,7 @@ import benefits from './img/week1/benefits.jpg'
 import length from './img/week1/length.jpg'
 import posture from './img/week1/posture.jpg'
 import details from './img/week1/details.jpg'
+
 const cards = {
     "title": "First Week - JUMP ROPE",
     "autor": "Khélia Nibaruta",
@@ -10,6 +11,7 @@ const cards = {
             "id": "0",
             "title": "Jump Rope",
             "program": [{
+                url: 'https://youtu.be/ZCJnkxf2HgE',
                 id: 1,
                 subtitle: "Why jump rope ?",
                 content: `Jumping rope is one of the best ways to burn calories fast for the whole body. It avoids cellulite problems but it is advisable to do it regularly.Jumping rope is a plyometric style workout. Thus it is excellent for developing, power, speed and endurance.In fifteen minutes jumpers can burn the calories in a candy bar or 200 calories. According to one source 10 minutes of jumping rope is equal to 30 minutes of running at a 5.7 mph pace. `,
@@ -19,7 +21,7 @@ const cards = {
         },
         {
             "id": "1",
-            "title": "A bit of history",
+            "title": "A bit of history and records",
             "program": [{
                 id: 1,
                 subtitle: `Since 1600 A.D`,
@@ -28,13 +30,21 @@ const cards = {
             },
             {
                 id: 2,
-                subtitle: `Since`,
-                content: ``,
+                subtitle: `1. Fastest Jump Rope Record`,
+                content: `The world’s fastest jump rope record was set in 2019 at an international jump rope competition in Shanghai. Cen Xiaolin, who previously set the record, managed to jump rope 228 times in 30 seconds.`,
+                url: `https://www.youtube.com/watch?v=35Fn5KnXQLU&t=53s`,
             },
             {
                 id: 3,
-                subtitle: `Actually`,
-                content: ``,
+                subtitle: `Longest Jump Rope Record`,
+                content: `The world’s longest jump rope record is held by Joey Motsay, an endurance athlete from Dryden, NY. Joey jumped roped, nonstop, for 33 hours and 20 minutes at a charity event in 2009. The attempt, which is recognized by the Guinness Book of World Records, raised $38,000 for charity.`,
+               
+            },
+            {
+                id: 3,
+                subtitle: `Let's have fun`,
+                content: `Dogs also jump to rope! This one is the record!!!`,
+                url: `https://www.youtube.com/watch?v=uKLuozxsl5U`
             },
 
             ]
@@ -52,6 +62,7 @@ const cards = {
             }, {
                 id: 2,
                 subtitle: `Jumping rope benefits`,
+                img: details,
                 content: `As the jumping rope is a cardio exercise, it has several benefits, and let’s see some of them:`
                 ,
             }, {
@@ -121,28 +132,11 @@ const cards = {
             }
             ]
         }, {
-            "id": "4",
-            "title": "After the session",
-            "program": [{
-                id: 1,
-                subtitle: "In the shower",
-                content: `You deserved a good shower. A little advice, during this shower you will apply temperature changes on your legs from your usual temperature to the coldest temperature available. Do it gradually if you are not used to it, but do it. The first time it may seem quite difficult but you will get used to it and it will allow you not to have aches the next day.`
-            }, {
-                id: 2,
-                subtitle: "Hydrate yourself",
-                content: `The legend says that it is good to share a good beer with friends after a session of running. Truth or just excuse? .. What is certain is that after having subjected your body to physical efforts, you must rehydrate it. In general, in sports it is advisable to drink plenty of water. You will also find in many specialized stores as well as in pharmacies drinks and recovery products. By having tested a few I can advise you those based on spirulina, I take it in exchange for an intensive outing.`
-            }, {
-                id: 3,
-                subtitle: "Stretching",
-                content: `For this part I send you to the week which deals with stretching. In the case of running, there are several schools, some do stretching before, during or after their training. I do them totally outside of activity and sometimes just when I have time. I am not necessarily a reference on the subject, but each body being different, each person does not have the same needs.`
-            }
-            ]
-        }, {
             "id": "5",
             "title": "In which case not practice jumping rope",
             "program": [{
                 id: 1,
-                subtitle: "",
+                subtitle: "WARNING !!!",
                 content: `People suffering from a herniated disc should absolutely avoid skipping rope. Indeed any exercise which increases the abdominal pressure, and therefore the pressure on the intervertebral discs, can increase the intensity of the pain.
                 This same abdominal pressure risks causing significant stress on the pelvic floor; It will therefore be preferable, after childbirth or in the event of proven weakness at this level, to dispense with jumping in order to avoid numerous complications such as urinary leaks or diastasis.
                 The jumps can be replaced by climbs of walk or step-up.
@@ -178,7 +172,7 @@ const cards = {
             "program": [{
                 id: 1,
                 subtitle: "Test your knowledge",
-                content: `You deserved a good shower. A little advice, during this shower you will apply temperature changes on your legs from your usual temperature to the coldest temperature available. Do it gradually if you are not used to it, but do it. The first time it may seem quite difficult but you will get used to it and it will allow you not to have aches the next day.`,
+                content: ``,
                 "quizz": [{
                     id: '1',
                     questionText: 'What is the diameter of the skipping rope?',
@@ -219,7 +213,7 @@ const cards = {
                     questionText: 'How know the correct length of the skipping rope for beginners?',
                     answerOptions: [
                         { answerText: 'the rope can be much shorter and only arrive at the level of the last ribs or the navel for example.', isCorrect: true, id: '0' },
-                        { answerText: 'NAs long as possible', isCorrect: false, id: '1' },
+                        { answerText: 'As long as possible', isCorrect: false, id: '1' },
                     ],
                 },
                 {
@@ -232,38 +226,38 @@ const cards = {
                 },
                 {
                     id: '7',
-                    questionText: 'To choose a pair of shoes, I must',
+                    questionText: 'Who is the world\'s fastest jump rope record?',
                     answerOptions: [
-                        { answerText: 'Ask a runner friend', isCorrect: false, id: '0' },
-                        { answerText: 'Take the same model as a famous athlete.', isCorrect: false, id: '1' },
-                        { answerText: 'Observe the wear on my shoes.', isCorrect: true, id: '2' },
+                        { answerText: 'Joey Motsay', isCorrect: false, id: '0' },
+                        { answerText: 'Joe Biden', isCorrect: false, id: '1' },
+                        { answerText: 'Cen Xiaolin', isCorrect: true, id: '2' },
                     ],
                 },
                 {
                     id: '8',
-                    questionText: 'Marathon is the name of a city in ...',
+                    questionText: 'Who is the world\'s longest jump rope record?',
                     answerOptions: [
-                        { answerText: 'England', isCorrect: false, id: '0' },
-                        { answerText: 'Greece', isCorrect: true, id: '1' },
-                        { answerText: 'United States', isCorrect: false, id: '2' },
+                        { answerText: 'Joey Motsay', isCorrect: true, id: '0' },
+                        { answerText: 'Joe Biden', isCorrect: false, id: '1' },
+                        { answerText: 'Cen Xiaolin', isCorrect: false, id: '2' },
                     ],
                 },
                 {
                     id: '9',
-                    questionText: 'If my foot attacks by the outside, I am :',
+                    questionText: 'How times did Cen Xiaolin managed to jump rope?',
                     answerOptions: [
-                        { answerText: 'Pronator', isCorrect: false, id: '0' },
-                        { answerText: 'Neutral', isCorrect: false, id: '1' },
-                        { answerText: 'Supinator', isCorrect: true, id: '2' },
+                        { answerText: '225 times', isCorrect: false, id: '0' },
+                        { answerText: '230 times', isCorrect: false, id: '1' },
+                        { answerText: '228 times', isCorrect: true, id: '2' },
                     ],
                 },
                 {
                     id: '10',
-                    questionText: 'When I run while chatting with a friend I am doing a type exercise :',
+                    questionText: 'How long time did Cen Xiaolin managed to jump rope?',
                     answerOptions: [
-                        { answerText: 'fundamental endurance', isCorrect: true, id: '0' },
-                        { answerText: 'Interval training', isCorrect: false, id: '1' },
-                        { answerText: 'Short pyramid', isCorrect: false, id: '2' },
+                        { answerText: '33 hours', isCorrect: true, id: '0' },
+                        { answerText: '30 seconds', isCorrect: false, id: '1' },
+                        { answerText: '228 seconds', isCorrect: false, id: '2' },
                     ],
                 },
                 ],
