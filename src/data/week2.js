@@ -329,7 +329,7 @@ const cards = {
             {
                 id: 3,
                 subtitle: "Thanks",
-                content: `Hope you enjoyed this week of run. I count on you to redo these different exercises and hope to meet you in basketball on a road or a path.`,
+                content: `Hope you enjoyed this week of run. I count on you to redo these different exercises and hope to meet you in running shoes on a road or a path.`,
                 url: `https://youtu.be/PCruN_EoqKU`
             },
             ]

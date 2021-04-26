@@ -7,6 +7,7 @@ import lungeSideStadium from './img/week3/lungesSideStadium.jpg'
 import lungesWomenBeach from './img/week3/lungesWomenBeach.jpg'
 import lungeTatoo from './img/week3/lungeTatooSidejpg.jpeg'
 import lungePink from './img/week3/lungeWomanPink.jpg'
+import apps from './img/week3/apps.png'
 const cards = {
     "title": "Third Week - GPP",
     "autor": "Julien Dudek",
@@ -17,7 +18,7 @@ const cards = {
             "program": [{
                 id: 0,
                 subtitle: `What will we learn this week?`,
-                content: `Work in progress for a video about the program of the week`
+                url: `https://youtu.be/6qdN2AuypNk`
             }, {
                 id: 1,
                 subtitle: "GPP : GENERAL PHYSICAL PREPARATION",
@@ -243,6 +244,23 @@ const cards = {
                     ],
                 },
                 ],
+            },
+            ]
+        }, {
+            "id": "6",
+            "title": "Go further",
+            "program": [{
+                id: 1,
+                subtitle: "Application",
+                content: `My favorite application is "Strength Training by Muscle and Motion", this application will help and guide you in the execution of the movements. You can also find other applications, the health situation of this year led to the development of these.`,
+                img: apps,
+
+            },
+            {
+                id: 3,
+                subtitle: "Thanks",
+                content: `You got there. All you have to do is practice in order to get a sturdy body and a beautiful look.`,
+                url: `https://youtu.be/1jHB8qtTLfI`
             },
             ]
         },
