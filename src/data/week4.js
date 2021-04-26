@@ -7,6 +7,7 @@ const cards = {
             "id": "0",
             "title": "Focus on Stretching",
             "program": [{
+                url: 'https://youtu.be/acZw9G8Z5CA',
                 id: 1,
                 subtitle: "Why stretch ?",
                 content: `Everyone has heard of stretching, but should it be done before or after training? Are they necessary? How to do them?
