@@ -162,10 +162,88 @@ const cards = {
                     },
 
                 ],
-                extra: `As you can see anyone can do this exercise in any situation so don't hesitate.About twenty minutes a day and you will be in good shape.`,
+                extra: `As you can see anyone can do this exercise in any situation so don't hesitate. About twenty minutes a day and you will be in good shape.`,
 
 
             }
+            ]
+        }, {
+            "id": "5",
+            "title": "Quizz of the Week",
+            "program": [{
+                id: 1,
+                subtitle: "Test your knowledge",
+                "quizz": [{
+                    id: '1',
+                    questionText: 'GPP is ...',
+                    answerOptions: [
+                        { answerText: 'reserved for the great sportsman', isCorrect: false, id: '0' },
+                        { answerText: 'preventive and positive for all sports', isCorrect: true, id: '1' },
+                        { answerText: 'only for men', isCorrect: false, id: '2' },
+                    ],
+                },
+                {
+                    id: '2',
+                    questionText: `How many parts are the abdominals divided into?`,
+                    answerOptions: [
+                        { answerText: '3', isCorrect: false, id: '0' },
+                        { answerText: '6', isCorrect: false, id: '1' },
+                        { answerText: '4', isCorrect: true, id: '2' },
+                    ],
+                },
+                {
+                    id: '3',
+                    questionText: 'Is mountain climber good for cardio ?',
+                    answerOptions: [
+                        { answerText: 'No', isCorrect: false, id: '0' },
+                        { answerText: 'Yes', isCorrect: true, id: '1' },
+                    ],
+                },
+                {
+                    id: '4',
+                    questionText: 'GPP and sport everyday are possible for a non-athlete ?',
+                    answerOptions: [
+                        { answerText: 'Yes', isCorrect: false, id: '0' },
+                        { answerText: 'No', isCorrect: true, id: '1' },
+                        { answerText: 'If she is a woman', isCorrect: false, id: '2' },
+                    ],
+                },
+                {
+                    id: '5',
+                    questionText: 'Squats build your legs and work ..',
+                    answerOptions: [
+                        { answerText: 'On shoulders', isCorrect: false, id: '0' },
+                        { answerText: 'Toes', isCorrect: false, id: '1' },
+                        { answerText: 'General posture', isCorrect: true, id: '1' },
+                    ],
+                },
+                {
+                    id: '6',
+                    questionText: 'There are different shoes depending on the coating?',
+                    answerOptions: [
+                        { answerText: 'No', isCorrect: false, id: '0' },
+                        { answerText: 'Yes', isCorrect: true, id: '1' },
+                    ],
+                },
+                {
+                    id: '7',
+                    questionText: 'It is possible to do upper and lower body exercises in the same session',
+                    answerOptions: [
+                        { answerText: 'Yes and it is recommended', isCorrect: true, id: '0' },
+                        { answerText: 'No, you have to alternate.', isCorrect: false, id: '1' },
+                    ],
+                },
+                {
+                    id: '8',
+                    questionText: 'GPP replaces stretching',
+                    answerOptions: [
+                        { answerText: 'No', isCorrect: true, id: '0' },
+                        { answerText: 'What is stretching?', isCorrect: false, id: '1' },
+                        { answerText: 'Yes', isCorrect: false, id: '2' },
+                    ],
+                },
+                ],
+            },
             ]
         },
 

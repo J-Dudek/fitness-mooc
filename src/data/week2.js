@@ -207,7 +207,6 @@ const cards = {
             "program": [{
                 id: 1,
                 subtitle: "Test your knowledge",
-                content: `You deserved a good shower. A little advice, during this shower you will apply temperature changes on your legs from your usual temperature to the coldest temperature available. Do it gradually if you are not used to it, but do it. The first time it may seem quite difficult but you will get used to it and it will allow you not to have aches the next day.`,
                 "quizz": [{
                     id: '1',
                     questionText: 'Does the marathon measure 42 km?',
